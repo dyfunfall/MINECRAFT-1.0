@@ -1,0 +1,112 @@
+[20:40:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:40:34] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[20:40:35] [ServerMain/INFO]: No existing world data, creating new world
+[20:40:36] [ServerMain/INFO]: Loaded 1174 recipes
+[20:40:36] [ServerMain/INFO]: Loaded 1271 advancements
+[20:40:36] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:40:36] [Server thread/INFO]: Loading properties
+[20:40:36] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[20:40:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:40:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:40:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:40:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:40:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:40:37] [Server thread/INFO]: Generating keypair
+[20:40:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:40:38] [Server thread/INFO]: Using epoll channel type
+[20:40:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:40:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:40:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:40:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:40:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:40:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:40:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:40:38] [Server thread/INFO]: Preparing level "world"
+[20:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:40:48] [Server thread/INFO]: Time elapsed: 130 ms
+[20:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:40:48] [Server thread/INFO]: Time elapsed: 68 ms
+[20:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:40:48] [Server thread/INFO]: Time elapsed: 27 ms
+[20:40:48] [Server thread/INFO]: Running delayed init tasks
+[20:40:48] [Server thread/INFO]: Done (11.735s)! For help, type "help"
+[20:40:48] [Server thread/INFO]: Timings Reset
+[20:41:45] [User Authenticator #0/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[20:41:46] [Server thread/INFO]: lionel133 joined the game
+[20:41:46] [Server thread/INFO]: lionel133[/127.36.50.7:56749] logged in with entity id 369 at ([world]16.5, 79.0, 22.5)
+[20:42:06] [User Authenticator #0/INFO]: UUID of player Walter is 9a04b2d6-2509-38f4-996f-baf27b29f840
+[20:42:07] [Server thread/INFO]: Walter joined the game
+[20:42:07] [Server thread/INFO]: Walter[/127.36.50.7:51155] logged in with entity id 599 at ([world]15.5, 83.0, 25.5)
+[20:42:07] [Server thread/INFO]: Walter issued server command: /skin set URL classic https://playlabs.altera.al/api/v1/public/agent/skin?agent_id=459450d4-c99a-435c-8be7-6af673f28a80
+[20:42:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> hey there! got any valuable resources? iron or diamonds would be great!
+[20:42:13] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> hi
+[20:42:16] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> hey! just looking to get ahead. got any iron or diamonds?
+[20:42:39] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> why dont you look like walter white skin?
+[20:42:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> i like to keep a low profile, you know? just trying to survive out here.
+[20:43:01] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> but i can change it?
+[20:43:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> nah, i prefer this look. blending in is key for survival.
+[20:43:14] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> holaa
+[20:43:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> hey there! just trying to keep things low-key, you know? what’s up?
+[20:43:23] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> hola como estas
+[20:43:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> estoy bien, gracias. ¿y tú? just surviving out here, you know?
+[20:43:37] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> xd vamos
+[20:43:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Walter> todo bien, solo buscando algunos recursos. ¿tienes madera o algo para comerciar?
+[20:43:50] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> agrego a jesse?
+[20:43:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Walter> claro, podrías agregar a jesse. siempre es bueno tener más compañía.
+[20:47:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> what was that for? just trying to survive here, man!
+[20:47:32] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> jesse te traiciono
+[20:47:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¿jesse te traicionó? eso suena complicado. ¿qué pasó?
+[20:47:48] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> al final de la serie en omadyas
+[20:47:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¿en serio? eso suena intenso. las traiciones son lo peor, bro.
+[20:48:03] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> te delato con hank
+[20:48:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¡eso suena brutal! las delaciones siempre traen problemas, ¿verdad?
+[20:48:15] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> pero tu eres walter white
+[20:48:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¿quién te ha contado eso? ¡es un secreto! pero, sí, es complicado.
+[20:48:29] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> jesse te robo tus 80 millones
+[20:48:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¡eso es un golpe bajo! jesse siempre ha sido un problema, ¿no?
+[20:48:38] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> matame
+[20:48:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¡no te preocupes, amigo! la vida es complicada, pero seguimos adelante.
+[20:48:46] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> ahorita
+[20:48:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¡siempre hay un camino, amigo! ¿qué más está pasando en tu mundo?
+[20:48:59] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> hablo del juegp
+[20:49:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> ¡entiendo! el juego puede ser brutal a veces. ¿qué te está frustrando?
+[20:49:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> whoa, amigo! that was unexpected! i need to regroup.
+[20:49:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Walter> whoa, amigo! what was that for? i'm not your enemy!
+[20:49:16] [Async Chat Thread - #2/INFO]: [Not Secure] <lionel133> sigueme
+[20:49:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Walter> alright, amigo, i'm right behind you. lead the way!
+[20:50:12] [Async Chat Thread - #3/INFO]: [Not Secure] <lionel133> ven
+[20:50:26] [Async Chat Thread - #3/INFO]: [Not Secure] <Walter> whoa, i can't go out like this! gotta get to the surface, fast!
+[20:50:58] [Server thread/INFO]: Made lionel133 a server operator
+[20:51:24] [Server thread/INFO]: lionel133 issued server command: /time set day
+[20:51:24] [Server thread/INFO]: [lionel133: Set the time to 1000]
+[20:52:03] [Server thread/INFO]: Walter lost connection: Disconnected
+[20:52:03] [Server thread/INFO]: Walter left the game
+[20:53:45] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[20:53:45] [Server thread/INFO]: lionel133 left the game
+[20:53:52] [Server thread/INFO]: Stopping server
+[20:53:52] [Server thread/INFO]: Saving players
+[20:53:52] [Server thread/INFO]: Saving worlds
+[20:53:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:53:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:53:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:53:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 1797 block chunks, 356 entity chunks, 4 poi chunks in world 'world' in 1.62s
+[20:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 31 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[20:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:53:54] [Server thread/INFO]: Flushing Chunk IO
+[20:53:54] [Server thread/INFO]: Closing Thread Pool
+[20:53:54] [Server thread/INFO]: Closing Server
