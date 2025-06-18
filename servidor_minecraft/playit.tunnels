@@ -9,34 +9,34 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "quite-museum.gl.joinmc.link",
-          "assigned_srv": "quite-museum.gl.joinmc.link",
+          "assigned_domain": "and-occur.gl.joinmc.link",
+          "assigned_srv": "and-occur.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "4d1b83b2-0391-40f3-9645-2717bcd0a767",
-          "ip_hostname": "26.ip.gl.ply.gg",
+          "id": "a176c0d5-b5c0-4464-92ba-5a16f36f4846",
+          "ip_hostname": "29.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 47372,
-          "port_start": 47371,
+          "port_end": 33310,
+          "port_start": 33309,
           "region": "global",
-          "static_ip4": "147.185.221.26",
-          "static_ip6": "2602:fbaf:0:1::1a",
-          "tunnel_ip": "2602:fbaf:0:1::1a"
+          "static_ip4": "147.185.221.29",
+          "static_ip6": "2602:fbaf:0:1::1d",
+          "tunnel_ip": "2602:fbaf:0:1::1d"
         },
         "status": "allocated"
       },
-      "created_at": "2025-03-07T20:28:41.380326Z",
+      "created_at": "2025-06-18T18:30:40.934790Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "abe068c3-8c7b-4787-a7db-c883b855fa87",
+      "id": "4b83daa7-e3b6-4be2-a38a-098897437e6f",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "3051a3c4-184a-4ce2-b0dd-4e40b1154a99",
-          "agent_name": "from-key-75da",
+          "agent_id": "39c7d740-18ed-4c6f-9b97-6a08d6e6ea97",
+          "agent_name": "from-key-f77d",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
