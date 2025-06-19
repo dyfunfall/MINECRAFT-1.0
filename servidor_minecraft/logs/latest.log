@@ -1,76 +1,215 @@
-[18:38:23] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[18:38:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[18:38:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:38:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[18:38:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:38:29] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[18:38:29] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[18:38:29] [ServerMain/INFO]: No existing world data, creating new world
-[18:38:30] [ServerMain/INFO]: Loaded 1290 recipes
-[18:38:30] [ServerMain/INFO]: Loaded 1399 advancements
-[18:38:31] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[18:38:31] [Server thread/INFO]: Loading properties
-[18:38:31] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[18:38:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:38:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:38:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:38:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:00:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[03:00:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[03:00:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:00:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/CMILib1.5.1.4.jar'...
+[03:00:35] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlayerAuctions 1.29.0.jar'...
+[03:00:35] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/BetterTeams-4.13.2.jar'...
+[03:00:36] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlayerAuctions 1.29.0.jar' in 1318ms.
+[03:00:37] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/CMILib1.5.1.4.jar' in 1602ms.
+[03:00:37] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BetterTeams-4.13.2.jar' in 1733ms.
+[03:00:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[03:00:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - BetterTeams (4.13.2), CMILib (1.5.1.4), Essentials (2.21.0-dev+117-c80bef9), Geyser-Spigot (2.4.2-SNAPSHOT), PlayerAuctions (1.29.0), ViaBackwards (5.0.3-SNAPSHOT), ViaVersion (5.0.3)
+[03:00:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:00:44] [ServerMain/INFO]: Loaded 1290 recipes
+[03:00:44] [ServerMain/INFO]: Loaded 1399 advancements
+[03:00:44] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:00:44] [Server thread/INFO]: Loading properties
+[03:00:44] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[03:00:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:00:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:00:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:00:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend migrating to the spark profiler.
     For more information please visit: https://github.com/PaperMC/Paper/discussions/10565
-[18:38:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[18:38:32] [Server thread/INFO]: Default game type: SURVIVAL
-[18:38:32] [Server thread/INFO]: Generating keypair
-[18:38:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:38:33] [Server thread/INFO]: Using epoll channel type
-[18:38:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:38:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[18:38:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:38:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:38:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:38:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:38:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:38:33] [Server thread/INFO]: Preparing level "world"
-[18:38:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:38:50] [Server thread/INFO]: Time elapsed: 7244 ms
-[18:38:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:38:52] [Server thread/INFO]: Time elapsed: 1579 ms
-[18:38:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:38:52] [Server thread/INFO]: Time elapsed: 481 ms
-[18:38:52] [Server thread/INFO]: [spark] Starting background profiler...
-[18:38:52] [Server thread/INFO]: Done preparing level "world" (19.570s)
-[18:38:52] [Server thread/INFO]: Running delayed init tasks
-[18:38:52] [Server thread/INFO]: Done (29.672s)! For help, type "help"
-[18:38:52] [Server thread/INFO]: Timings Reset
-[18:41:30] [User Authenticator #0/INFO]: UUID of player Unrandommas415 is c1aede3a-cc87-3ee3-b366-c818f4ed35c0
-[18:41:31] [Server thread/INFO]: Unrandommas415 joined the game
-[18:41:31] [Server thread/INFO]: Unrandommas415[/127.7.242.196:49123] logged in with entity id 25 at ([world]21.5, 130.0, 85.5)
-[18:42:00] [Server thread/INFO]: Made Undrandommas415 a server operator
-[18:42:28] [Server thread/INFO]: Made Undrandommas415 no longer a server operator
-[18:42:38] [Server thread/INFO]: Made Unrandommas415 a server operator
-[18:42:46] [Server thread/INFO]: Unrandommas415 issued server command: /gamemode c
-[18:42:49] [Server thread/INFO]: Unrandommas415 issued server command: /gamemode creative
-[18:42:49] [Server thread/INFO]: [Unrandommas415: Set own game mode to Creative Mode]
-[18:49:39] [Server thread/INFO]: Unrandommas415 lost connection: Disconnected
-[18:49:39] [Server thread/INFO]: Unrandommas415 left the game
-[18:49:39] [Server thread/INFO]: Stopping server
-[18:49:39] [Server thread/INFO]: Saving players
-[18:49:39] [Server thread/INFO]: Saving worlds
-[18:49:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:49:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:49:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:49:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Saved 621 block chunks, 123 entity chunks, 0 poi chunks in world 'world' in 0.65s
-[18:49:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.22s
-[18:49:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:49:40] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.19s
-[18:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:49:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:00:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:00:46] [Server thread/INFO]: Default game type: SURVIVAL
+[03:00:46] [Server thread/INFO]: Generating keypair
+[03:00:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:00:46] [Server thread/INFO]: Using epoll channel type
+[03:00:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:00:46] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[03:00:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[03:00:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[03:00:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:00:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:00:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:00:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:00:51] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.2
+[03:00:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[03:00:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[03:00:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3-SNAPSHOT
+[03:00:51] [Server thread/INFO]: [PlayerAuctions] Loading server plugin PlayerAuctions v1.29.0
+[03:01:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+117-c80bef9
+[03:01:00] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.1.4
+[03:01:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.2-SNAPSHOT
+[03:01:01] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:01:01] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:01:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:01:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:01:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:01:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:01:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:01:01] [Server thread/INFO]: Preparing level "world"
+[03:01:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:01:03] [Server thread/INFO]: Time elapsed: 1186 ms
+[03:01:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:01:03] [Server thread/INFO]: Time elapsed: 202 ms
+[03:01:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:01:03] [Server thread/INFO]: Time elapsed: 129 ms
+[03:01:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[03:01:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[03:01:03] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.2
+[03:01:04] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@14cf23e7
+[03:01:04] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[03:01:04] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[03:01:04] [Server thread/INFO]: [BetterTeams] Converting storage type, this may take a while
+[03:01:04] [Server thread/INFO]: [BetterTeams] Backing up teams.yml file
+[03:01:04] [Server thread/INFO]: [BetterTeams] Loading team information
+[03:01:04] [Server thread/INFO]: [BetterTeams] Beginning convertion
+[03:01:04] [Server thread/INFO]: [BetterTeams] Convertion complete
+[03:01:04] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.check
+[03:01:04] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.debug
+[03:01:04] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.teleport
+[03:01:04] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.importmessages
+[03:01:04] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.money
+[03:01:04] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[03:01:04] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[03:01:04] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@138a2a49
+[03:01:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3-SNAPSHOT
+[03:01:04] [Server thread/INFO]: [PlayerAuctions] Enabling PlayerAuctions v1.29.0
+[03:01:04] [Server thread/INFO]: [PlayerAuctions] Cannot find vault, disabling...
+[03:01:04] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.29.0
+[03:01:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+117-c80bef9
+[03:01:05] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[03:01:05] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[03:01:06] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[03:01:06] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[03:01:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:01:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:01:06] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[03:01:06] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[03:01:06] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[03:01:06] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[03:01:06] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[03:01:06] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[03:01:06] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[03:01:06] [Server thread/INFO]: [Essentials] Using locale en
+[03:01:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:01:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:01:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:01:07] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.1.4
+[03:01:08] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.1 - paper  1.21.1-57-b483da4 (MC: 1.21.1)
+[03:01:08] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:01:08] [Server thread/INFO]: Updated (EN) language file. Took 51ms
+[03:01:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.2-SNAPSHOT
+[03:01:09] [Server thread/INFO]: [spark] Starting background profiler...
+[03:01:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:01:09] [Server thread/INFO]: [Geyser-Spigot] 
+[03:01:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.2-b645 (git-master-ee43ef8)
+[03:01:09] [Server thread/INFO]: [Geyser-Spigot] 
+[03:01:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:01:16] [ForkJoinPool.commonPool-worker-2/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
+[03:01:16] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[03:01:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[03:01:16] [Server thread/INFO]: [Geyser-Spigot] Done (7.111s)! Run /geyser help for help!
+[03:01:17] [Server thread/INFO]: Done preparing level "world" (15.227s)
+[03:01:17] [Server thread/INFO]: Running delayed init tasks
+[03:01:17] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[03:01:17] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.90. Download it here: https://geysermc.org/download
+[03:01:17] [Server thread/INFO]: Done (43.059s)! For help, type "help"
+[03:01:17] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:01:17] [Server thread/INFO]: Timings Reset
+[03:01:17] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.3.2, you're on: 5.0.3
+[03:01:17] [Server thread/INFO]: Downloaded Locale_RU.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_LT.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_SL.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_IT.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_DE.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_CZ.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_CN.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_NO.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_ES.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_UA.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_SK.yml file
+[03:01:17] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[03:01:17] [Server thread/INFO]: Downloaded Locale_PL.yml file
+[03:01:17] [Server thread/INFO]: Downloaded items_ES.yml file
+[03:01:17] [Server thread/INFO]: Downloaded items_CN.yml file
+[03:01:17] [Craft Scheduler Thread - 24 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[03:01:17] [Server thread/INFO]: Updated (EN) language file. Took 51ms
+[03:01:17] [Server thread/INFO]: Downloaded Locale_FR.yml file
+[03:01:17] [Server thread/INFO]: Downloaded Locale_ZH.yml file
+[03:01:17] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 101 EssentialsX dev build(s) out of date!
+[03:01:17] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[03:01:17] [Server thread/INFO]: Updated (EN) language file. Took 24ms
+[03:01:17] [Server thread/INFO]: Downloaded Locale_TR.yml file
+[03:02:58] [User Authenticator #0/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[03:03:00] [Server thread/INFO]: lionel133 joined the game
+[03:03:00] [Server thread/INFO]: lionel133[/127.7.242.196:55265] logged in with entity id 59 at ([world]17.5, 119.0, 78.5)
+[03:03:00] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[03:03:09] [Server thread/INFO]: lionel133 issued server command: /time set sunset
+[03:03:26] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[03:03:26] [Server thread/INFO]: lionel133 left the game
+[03:03:58] [User Authenticator #1/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[03:03:59] [Server thread/INFO]: lionel133 joined the game
+[03:03:59] [Server thread/INFO]: lionel133[/127.7.242.196:44417] logged in with entity id 346 at ([world]16.1808079865649, 121.0, 78.04397299626838)
+[03:04:03] [Server thread/INFO]: lionel133 issued server command: /time set sunset
+[03:04:07] [Server thread/INFO]: lionel133 issued server command: /time set sun
+[03:04:12] [Server thread/INFO]: lionel133 issued server command: /time set sunrise
+[03:04:17] [Server thread/INFO]: lionel133 issued server command: /time set af
+[03:04:20] [Server thread/INFO]: lionel133 issued server command: /time set afternoon
+[03:04:32] [User Authenticator #1/INFO]: UUID of player NIGGER is a59b97be-4992-387f-94e0-4952fac7501a
+[03:04:37] [Server thread/INFO]: NIGGER joined the game
+[03:04:37] [Server thread/INFO]: NIGGER[/127.161.5.136:58875] logged in with entity id 413 at ([world]19.5, 118.0, 78.5)
+[03:04:55] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> llalala
+[03:05:01] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> callate
+[03:05:01] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> tt
+[03:05:02] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> tt
+[03:05:07] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> se habla con la t
+[03:05:08] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> xd
+[03:05:10] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> si
+[03:05:23] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> una bruja
+[03:05:34] [Server thread/INFO]: NIGGER was shot by Skeleton
+[03:05:35] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> te va lag?
+[03:05:46] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> en graficos un poco
+[03:05:49] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> en ping maso
+[03:06:18] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> es que es git hub
+[03:06:35] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> mira
+[03:06:37] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> pon
+[03:06:46] [Server thread/INFO]: NIGGER issued server command: /q cosa
+[03:06:47] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> ./team create (nombre)
+[03:07:01] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> ./team create
+[03:07:06] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> en comando'
+[03:07:11] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> pero pones un nombre
+[03:07:16] [Server thread/INFO]: NIGGER issued server command: /team create
+[03:07:17] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> y quitas el punto
+[03:07:17] [Server thread/INFO]: NIGGER was blown up by Creeper
+[03:07:23] [Server thread/INFO]: NIGGER issued server command: /
+[03:07:25] [Server thread/INFO]: lionel133 issued server command: /time set afternoon
+[03:07:30] [Server thread/INFO]: NIGGER was shot by Skeleton
+[03:07:36] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> esta bien mi nombre causa
+[03:07:42] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> como se llama
+[03:07:57] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> no puedes ver mi nombre?
+[03:07:58] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> es para que puedas crear un clan
+[03:07:59] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> si
+[03:08:05] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> pero el comando es para eso
+[03:08:12] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> aya
+[03:08:15] [Async Chat Thread - #0/INFO]: [Not Secure] <NIGGER> y pa q es el clan
+[03:08:32] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> para que puedas poner tp a una base que tengas
+[03:08:35] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> asi ya no caminas
+[03:08:46] [Server thread/INFO]: NIGGER issued server command: /team create pajaro
+[03:08:49] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> TMR
+[03:08:52] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> POR QUE PAJARO XD
+[03:09:00] [Async Chat Thread - #0/INFO]: [Not Secure] [pajaro] <NIGGER> no se mn
+[03:09:17] [Server thread/INFO]: lionel133 issued server command: /team join pajaro
+[03:09:23] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> invitame
+[03:09:29] [Async Chat Thread - #0/INFO]: [Not Secure] [pajaro] <NIGGER> como
+[03:09:36] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> pon ./team invite (mi nombre)
+[03:09:50] [Server thread/INFO]: NIGGER issued server command: /team invite lionel133
+[03:09:55] [Server thread/INFO]: lionel133 issued server command: /team join pajaro
+[03:09:57] [Async Chat Thread - #0/INFO]: [Not Secure] [pajaro] <lionel133> bienn
+[03:10:15] [Server thread/INFO]: pajaro NIGGER was blown up by Creeper
+[03:10:15] [Server thread/INFO]: lionel133 was blown up by Creeper
+[03:10:22] [Async Chat Thread - #0/INFO]: [Not Secure] [pajaro] <NIGGER> q creeper mas hijodeprra
+[03:10:26] [Server thread/INFO]: lionel133 issued server command: /time set afternoon
