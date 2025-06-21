@@ -6319,3 +6319,60 @@ java.util.ConcurrentModificationException: null
 [18:11:41] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.0, you're on: 5.0.3
 [18:11:41] [Craft Scheduler Thread - 848 - Vault/INFO]: [Vault] Checking for Updates ... 
 [18:11:41] [Craft Scheduler Thread - 848 - Vault/INFO]: [Vault] No new version available
+[18:15:34] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[18:15:34] [Server thread/INFO]: [UltimateShop] Can not save player data: lionel133! This is usually because this player joined the server before server fully started OR other plugins kicked this player, ask him rejoin the server.
+[18:15:34] [Server thread/INFO]: ohpaulo lionel133 left the game
+[18:15:34] [Server thread/INFO]: Stopping server
+[18:15:34] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[18:15:34] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:15:34] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:15:34] [Server thread/INFO]: [CSL] Disabling ChunkSpawnerLimiter v4.4.2
+[18:15:34] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.31.1
+[18:15:34] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
+[18:15:34] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v1.4.1
+[18:15:34] [Server thread/INFO]: [AntiLagX] Disabling AntiLagX v2.0.2
+[18:15:34] [Server thread/INFO]: [AntiLagX] Time acceleration system stopped
+[18:15:34] [Server thread/INFO]: [AntiLagX] AntiLagX has been disabled!
+[18:15:34] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
+[18:15:34] [Server thread/INFO]: ------------- Jobs -------------
+[18:15:34] [Server thread/INFO]: Cleared boss bar cache
+[18:15:34] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[18:15:34] [Server thread/INFO]: Saved player data
+[18:15:34] [Server thread/INFO]: Closed database connection
+[18:15:34] [Server thread/INFO]: ------------------------------------
+[18:15:34] [Server thread/INFO]: [UltimateShop] Disabling UltimateShop v3.8.2
+[18:15:34] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[18:15:34] [Server thread/INFO]: [UltimateShop] Plugin is disabled. Author: PQguanfang.
+[18:15:34] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3-SNAPSHOT
+[18:15:34] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[18:15:34] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.4
+[18:15:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
+[18:15:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:15:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:15:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[18:15:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:15:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:15:34] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:15:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[18:15:34] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:15:34] [Server thread/INFO]: Saving players
+[18:15:34] [Server thread/INFO]: Saving worlds
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saved 18 block chunks, 372 entity chunks, 0 poi chunks in world 'world' in 0.24s
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:15:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:15:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:15:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:15:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:15:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
