@@ -1,306 +1,253 @@
-[23:27:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[23:27:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[23:27:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:27:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
-[23:27:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
- - BetterTeams (4.13.2), CMILib (1.5.4.4), ChunkSpawnerLimiter (4.4.2), Essentials (2.21.2-dev+5-4ab3bbc), Geyser-Spigot (2.4.2-SNAPSHOT), Jobs (5.2.6.0), LuckPerms (5.5.0), NexusAuctionHouse (2.1), PlaceholderAPI (2.11.6), PlayerAuctions (1.31.1), SternalBoard (2.3.2), SynkLibs (1.7), SynkLibs (1.8.1), UltimateShop (3.8.2), Vault (1.7.3-b131)
-[23:28:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:28:05] [ServerMain/INFO]: Loaded 1290 recipes
-[23:28:05] [ServerMain/INFO]: Loaded 1399 advancements
-[23:28:05] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[23:28:05] [Server thread/INFO]: Loading properties
-[23:28:06] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[23:28:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:28:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:28:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:28:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[23:28:07] [Server thread/INFO]: Default game type: SURVIVAL
-[23:28:07] [Server thread/INFO]: Generating keypair
-[23:28:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:28:07] [Server thread/INFO]: Using epoll channel type
-[23:28:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:28:07] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[23:28:07] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'SynkLibs' for files 'plugins/.paper-remapped/SynkLibs-1.8.1.jar' and 'plugins/.paper-remapped/SynkLibs-1.7.jar' in 'plugins/.paper-remapped'
-[23:28:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[23:28:08] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[23:28:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[23:28:08] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.8.1
-[23:28:08] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+5-4ab3bbc
-[23:28:08] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.4.4
-[23:28:08] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.2
-[23:28:08] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[23:28:08] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[23:28:08] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v2.1
-[23:28:08] [Server thread/INFO]: [UltimateShop] Loading server plugin UltimateShop v3.8.2
-[23:28:08] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.6.0
-[23:28:08] [Server thread/INFO]: [SternalBoard] Loading server plugin SternalBoard v2.3.2
-[23:28:09] [Server thread/INFO]: [PlayerAuctions] Loading server plugin PlayerAuctions v1.31.1
-[23:28:10] [Server thread/INFO]: [CSL] Loading server plugin ChunkSpawnerLimiter v4.4.2
-[23:28:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.2-SNAPSHOT
-[23:28:13] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[23:28:13] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[23:28:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:28:13] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[23:28:13] [Server thread/INFO]:         __    
-[23:28:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[23:28:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:28:13] [Server thread/INFO]: 
-[23:28:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[23:28:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:28:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:28:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:28:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1014ms)
-[23:28:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[23:28:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[23:28:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[23:28:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[23:28:14] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[23:28:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:28:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:28:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:28:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:28:14] [Server thread/INFO]: Preparing level "world"
-[23:28:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:28:16] [Server thread/INFO]: Time elapsed: 1331 ms
-[23:28:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:28:16] [Server thread/INFO]: Time elapsed: 180 ms
-[23:28:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:28:16] [Server thread/INFO]: Time elapsed: 88 ms
-[23:28:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[23:28:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[23:28:16] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.8.1
-[23:28:18] [Server thread/INFO]: [SynkLibs] »  SynkLibs is up to date!
-[23:28:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+5-4ab3bbc
-[23:28:19] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[23:28:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[23:28:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[23:28:20] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[23:28:20] [Server thread/INFO]: [Essentials] Using locale en
-[23:28:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[23:28:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[23:28:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[23:28:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[23:28:20] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.4.4
-[23:28:22] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.1 - paper  1.21.1-57-b483da4 (MC: 1.21.1)
-[23:28:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:28:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.5.4.4]
-[23:28:22] [Server thread/INFO]: PlaceholderAPI hooked.
-[23:28:22] [Server thread/INFO]: Updated (EN) language file. Took 75ms
-[23:28:22] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.2
-[23:28:22] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@374e3190
-[23:28:22] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[23:28:22] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[23:28:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.13.2]
-[23:28:23] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[23:28:23] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[23:28:23] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@97772ce
-[23:28:23] [Server thread/INFO]: [NexusAuctionHouse] Enabling NexusAuctionHouse v2.1
-[23:28:23] [Server thread/INFO]: [UltimateShop] Enabling UltimateShop v3.8.2
-[23:28:23] [Server thread/INFO]: [UltimateShop] Paper is found, entering Paper plugin mode...!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: terracottas.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: glass.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: concretes.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: daily.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: transport.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: minerals.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: wools.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks2.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: special.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: drops.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: logs.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: example.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: flowers.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: redstone.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: farming.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded shop: fish.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Loaded menu: main.yml!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Hooking into PlaceholderAPI...
-[23:28:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultimateshop [1.2.0]
-[23:28:24] [Server thread/INFO]: [UltimateShop] Finished hook!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Hooking into Vault...
-[23:28:24] [Server thread/INFO]: [UltimateShop] New AuthLib found, enabled new skull get method!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Your Minecraft version is: 1.21.1!
-[23:28:24] [Server thread/INFO]: [UltimateShop] Plugin is loaded. Author: PQguanfang.
-[23:28:24] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.6.0
-[23:28:24] [Server thread/INFO]: ------------- Jobs -------------
-[23:28:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jobsr [5.2.6.0]
-[23:28:24] [Server thread/INFO]: PlaceholderAPI hooked.
-[23:28:24] [Server thread/INFO]: Connected to database (SqLite)
-[23:28:24] [Server thread/INFO]: Loaded 8 titles
-[23:28:24] [Server thread/INFO]: Loaded 2 restricted areas!
-[23:28:24] [Server thread/INFO]: Loaded 53 protected blocks timers
-[23:28:25] [Server thread/INFO]: Loaded 1481 custom item names
-[23:28:25] [Server thread/INFO]: Loaded 84 custom entity names
-[23:28:25] [Server thread/INFO]: Loaded 2 custom MythicMobs names
-[23:28:25] [Server thread/INFO]: Loaded 42 custom enchant names
-[23:28:25] [Server thread/INFO]: Loaded 46 custom enchant names
-[23:28:25] [Server thread/INFO]: Loaded 16 custom color names
-[23:28:25] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
-[23:28:25] [Server thread/INFO]: Loaded 4 shop items
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Fisherman
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Enchanter
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Weaponsmith
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Brewer
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Woodcutter
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Builder
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Explorer
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Miner
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Farmer
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Crafter
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Digger
-[23:28:25] [Server thread/INFO]: Loaded 1 quests for Hunter
-[23:28:25] [Server thread/INFO]: Loaded 12 jobs
-[23:28:25] [Server thread/INFO]: Loaded 0 boosted items
-[23:28:25] [Server thread/INFO]: Loaded 5 furnace for reassigning.
-[23:28:25] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
-[23:28:25] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
-[23:28:25] [Server thread/INFO]: Preloaded 1 players data in 0.05
-[23:28:25] [Server thread/INFO]: Registering listeners...
-[23:28:25] [Server thread/INFO]: Listeners registered successfully
-[23:28:25] [Server thread/INFO]: Plugin has been enabled successfully.
-[23:28:25] [Server thread/INFO]: ------------------------------------
-[23:28:25] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.3.2
-[23:28:25] [Server thread/INFO]: [INFO] Starting SternalBoard Plugin
-[23:28:25] [Server thread/INFO]: [PlayerAuctions] Enabling PlayerAuctions v1.31.1
-[23:28:25] [Server thread/INFO]: [PlayerAuctions] Vault found, now enabling PlayerAuctions...
-[23:28:26] [Server thread/INFO]: [PlayerAuctions] Found 21 config files to load!
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Permissions plugin found! (LuckPerms)
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Economy plugin found! (EssentialsX Economy)
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Chat plugin found! (LuckPerms)
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Found PlaceholderAPI integrating support...
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Found Vault Currency integrating support...
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Found Product Converter integrating support...
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Found Item Currency integrating support...
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] Found XP Currency integrating support...
-[23:28:27] [Server thread/INFO]: [PlayerAuctions] SQLite database is enabling...
-[23:28:28] [Server thread/INFO]: [PlayerAuctions] Loading Metrics...
-[23:28:28] [Server thread/INFO]: [PlayerAuctions] Successfully loaded Metrics!
-[23:28:28] [Server thread/INFO]: [CSL] Enabling ChunkSpawnerLimiter v4.4.2
-[23:28:28] [Server thread/INFO]: [CSL] [ACF] Enabled Asynchronous Tab Completion Support!
-[23:28:28] [Server thread/INFO]: [CSL] [ACF] Enabled Brigadier Support!
-[23:28:28] [Server thread/WARN]: [CSL] "ChunkSpawnerLimiter v4.4.2" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void com.cyprias.chunkspawnerlimiter.libs.acf.PaperBrigadierManager.onCommandRegister(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [Cyprias, sarhatabaot].
-[23:28:28] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.2-SNAPSHOT
-[23:28:28] [Server thread/INFO]: [spark] Starting background profiler...
-[23:28:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[23:28:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[23:28:29] [Server thread/INFO]: [Geyser-Spigot] 
-[23:28:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.2-b645 (git-master-ee43ef8)
-[23:28:29] [Server thread/INFO]: [Geyser-Spigot] 
-[23:28:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[23:28:35] [Server thread/ERROR]: [Geyser-Spigot] Auth-type set to Floodgate but Floodgate is not installed! Disabling...
-[23:28:35] [Server thread/INFO]: [Geyser-Spigot] Done (6.587s)! Run /geyser help for help!
-[23:28:35] [Server thread/INFO]: Done preparing level "world" (21.237s)
-[23:28:35] [Server thread/INFO]: Running delayed init tasks
-[23:28:35] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[23:28:35] [Craft Scheduler Thread - 4 - PlayerAuctions/INFO]: [PlayerAuctions] Loading auction items...
-[23:28:35] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
-[23:28:35] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[23:28:35] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
-[23:28:35] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
-[23:28:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pa [1.31.1]
-[23:28:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
-[23:28:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[23:28:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[23:28:35] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[23:28:35] [Server thread/INFO]: Done (38.093s)! For help, type "help"
-[23:28:35] [Server thread/INFO]: Timings Reset
-[23:28:35] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
-[23:28:36] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
-[23:28:36] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[23:29:00] [User Authenticator #0/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
-[23:29:02] [Server thread/INFO]: lionel133 joined the game
-[23:29:02] [Server thread/INFO]: lionel133[/127.7.242.196:44563] logged in with entity id 191 at ([world]-58.34673169648139, 142.0, 41.61221579463805)
-[23:29:57] [Server thread/INFO]: lionel133 lost connection: Disconnected
-[23:29:57] [Server thread/INFO]: ohpaulo lionel133 left the game
-[23:32:28] [Server thread/INFO]: Stopping server
-[23:32:28] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
-[23:32:28] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:32:28] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:32:28] [Server thread/INFO]: [CSL] Disabling ChunkSpawnerLimiter v4.4.2
-[23:32:28] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.31.1
-[23:32:28] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
-[23:32:28] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
-[23:32:28] [Server thread/INFO]: ------------- Jobs -------------
-[23:32:28] [Server thread/INFO]: Cleared boss bar cache
-[23:32:28] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
-[23:32:28] [Server thread/INFO]: Saved player data
-[23:32:28] [Server thread/INFO]: Closed database connection
-[23:32:28] [Server thread/INFO]: ------------------------------------
-[23:32:28] [Server thread/INFO]: [UltimateShop] Disabling UltimateShop v3.8.2
-[23:32:28] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
-[23:32:28] [Server thread/INFO]: [UltimateShop] Plugin is disabled. Author: PQguanfang.
-[23:32:28] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v2.1
-[23:32:28] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
-[23:32:28] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.4
-[23:32:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
-[23:32:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[23:32:28] [Server thread/INFO]: [SynkLibs] Disabling SynkLibs v1.8.1
-[23:32:28] [Server thread/ERROR]: Error occurred while disabling SynkLibs v1.8.1
-org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:539) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:243) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:239) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:190) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:159) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at SynkLibs-1.8.1.jar/cc.synkdev.synkLibs.bukkit.SynkLibs.onDisable(SynkLibs.java:119) ~[SynkLibs-1.8.1.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:609) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1046) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:32:28] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[23:32:28] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[23:32:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
-[23:32:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:32:28] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:32:28] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:32:28] [Server thread/INFO]: Saving players
-[23:32:28] [Server thread/INFO]: Saving worlds
-[23:32:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:32:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:32:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:32:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Saved 483 block chunks, 483 entity chunks, 0 poi chunks in world 'world' in 1.19s
-[23:32:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
-[23:32:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:32:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
-[23:32:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:32:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:32:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:32:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:42:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[23:42:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[23:42:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:42:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
+[23:42:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+ - BetterTeams (4.13.2), CMILib (1.5.4.4), ChunkSpawnerLimiter (4.4.2), Essentials (2.21.2-dev+5-4ab3bbc), Geyser-Spigot (2.4.2-SNAPSHOT), Jobs (5.2.6.0), LuckPerms (5.5.0), NexusAuctionHouse (2.1), PlaceholderAPI (2.11.6), PlayerAuctions (1.31.1), SternalBoard (2.3.2), SynkLibs (1.8.1), UltimateShop (3.8.2), Vault (1.7.3-b131), ViaBackwards (5.4.0), ViaRewind (4.0.8), ViaVersion (5.4.0)
+[23:42:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:43:00] [ServerMain/INFO]: Loaded 1290 recipes
+[23:43:01] [ServerMain/INFO]: Loaded 1399 advancements
+[23:43:01] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[23:43:01] [Server thread/INFO]: Loading properties
+[23:43:01] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[23:43:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:43:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:43:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:43:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[23:43:03] [Server thread/INFO]: Default game type: SURVIVAL
+[23:43:03] [Server thread/INFO]: Generating keypair
+[23:43:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:43:03] [Server thread/INFO]: Using epoll channel type
+[23:43:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:43:03] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[23:43:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.0
+[23:43:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.0 is now loaded. Registering protocol transformers and injecting...
+[23:43:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:43:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:43:08] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:43:08] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:43:09] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[23:43:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[23:43:10] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[23:43:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[23:43:10] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.8.1
+[23:43:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+5-4ab3bbc
+[23:43:10] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.4.4
+[23:43:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.0
+[23:43:10] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.2
+[23:43:10] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[23:43:10] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[23:43:10] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v2.1
+[23:43:10] [Server thread/INFO]: [UltimateShop] Loading server plugin UltimateShop v3.8.2
+[23:43:10] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.6.0
+[23:43:10] [Server thread/INFO]: [SternalBoard] Loading server plugin SternalBoard v2.3.2
+[23:43:10] [Server thread/INFO]: [PlayerAuctions] Loading server plugin PlayerAuctions v1.31.1
+[23:43:11] [Server thread/INFO]: [CSL] Loading server plugin ChunkSpawnerLimiter v4.4.2
+[23:43:11] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8
+[23:43:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.2-SNAPSHOT
+[23:43:13] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[23:43:13] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[23:43:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:43:13] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[23:43:13] [Server thread/INFO]:         __    
+[23:43:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[23:43:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[23:43:13] [Server thread/INFO]: 
+[23:43:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[23:43:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[23:43:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[23:43:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[23:43:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1118ms)
+[23:43:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[23:43:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:43:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:43:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[23:43:15] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[23:43:15] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.8
+[23:43:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:43:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:43:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:43:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:43:15] [Server thread/INFO]: Preparing level "world"
+[23:43:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:43:17] [Server thread/INFO]: Time elapsed: 1363 ms
+[23:43:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:43:17] [Server thread/INFO]: Time elapsed: 167 ms
+[23:43:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:43:17] [Server thread/INFO]: Time elapsed: 101 ms
+[23:43:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.0
+[23:43:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[23:43:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[23:43:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:43:17] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.8.1
+[23:43:19] [Server thread/INFO]: [SynkLibs] »  SynkLibs is up to date!
+[23:43:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+5-4ab3bbc
+[23:43:20] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[23:43:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:43:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[23:43:20] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:43:21] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[23:43:21] [Server thread/INFO]: [Essentials] Using locale en
+[23:43:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:43:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:43:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[23:43:21] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[23:43:21] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.4.4
+[23:43:23] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.1 - paper  1.21.1-57-b483da4 (MC: 1.21.1)
+[23:43:23] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:43:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.5.4.4]
+[23:43:23] [Server thread/INFO]: PlaceholderAPI hooked.
+[23:43:23] [Server thread/INFO]: Updated (EN) language file. Took 57ms
+[23:43:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.0
+[23:43:23] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.2
+[23:43:24] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@1075e469
+[23:43:24] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[23:43:24] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[23:43:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.13.2]
+[23:43:24] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[23:43:24] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[23:43:24] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1a94827e
+[23:43:24] [Server thread/INFO]: [NexusAuctionHouse] Enabling NexusAuctionHouse v2.1
+[23:43:25] [Server thread/INFO]: [UltimateShop] Enabling UltimateShop v3.8.2
+[23:43:25] [Server thread/INFO]: [UltimateShop] Paper is found, entering Paper plugin mode...!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: terracottas.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: glass.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: concretes.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: daily.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: transport.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: minerals.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: wools.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks2.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: special.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: drops.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: logs.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: example.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: flowers.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: redstone.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: farming.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded shop: fish.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Loaded menu: main.yml!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Hooking into PlaceholderAPI...
+[23:43:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultimateshop [1.2.0]
+[23:43:25] [Server thread/INFO]: [UltimateShop] Finished hook!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Hooking into Vault...
+[23:43:25] [Server thread/INFO]: [UltimateShop] New AuthLib found, enabled new skull get method!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Your Minecraft version is: 1.21.1!
+[23:43:25] [Server thread/INFO]: [UltimateShop] Plugin is loaded. Author: PQguanfang.
+[23:43:25] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.6.0
+[23:43:25] [Server thread/INFO]: ------------- Jobs -------------
+[23:43:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jobsr [5.2.6.0]
+[23:43:25] [Server thread/INFO]: PlaceholderAPI hooked.
+[23:43:26] [Server thread/INFO]: Connected to database (SqLite)
+[23:43:26] [Server thread/INFO]: Loaded 8 titles
+[23:43:26] [Server thread/INFO]: Loaded 2 restricted areas!
+[23:43:26] [Server thread/INFO]: Loaded 53 protected blocks timers
+[23:43:26] [Server thread/INFO]: Loaded 1481 custom item names
+[23:43:26] [Server thread/INFO]: Loaded 84 custom entity names
+[23:43:26] [Server thread/INFO]: Loaded 2 custom MythicMobs names
+[23:43:26] [Server thread/INFO]: Loaded 42 custom enchant names
+[23:43:26] [Server thread/INFO]: Loaded 46 custom enchant names
+[23:43:26] [Server thread/INFO]: Loaded 16 custom color names
+[23:43:26] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
+[23:43:26] [Server thread/INFO]: Loaded 4 shop items
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Enchanter
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Builder
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Brewer
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Fisherman
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Digger
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Explorer
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Miner
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Farmer
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Weaponsmith
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Woodcutter
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Crafter
+[23:43:26] [Server thread/INFO]: Loaded 1 quests for Hunter
+[23:43:26] [Server thread/INFO]: Loaded 12 jobs
+[23:43:26] [Server thread/INFO]: Loaded 0 boosted items
+[23:43:27] [Server thread/INFO]: Loaded 5 furnace for reassigning.
+[23:43:27] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
+[23:43:27] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
+[23:43:27] [Server thread/INFO]: Preloaded 2 players data in 0.07
+[23:43:27] [Server thread/INFO]: Registering listeners...
+[23:43:27] [Server thread/INFO]: Listeners registered successfully
+[23:43:27] [Server thread/INFO]: Plugin has been enabled successfully.
+[23:43:27] [Server thread/INFO]: ------------------------------------
+[23:43:27] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.3.2
+[23:43:27] [Server thread/INFO]: [INFO] Starting SternalBoard Plugin
+[23:43:27] [Server thread/INFO]: [PlayerAuctions] Enabling PlayerAuctions v1.31.1
+[23:43:27] [Server thread/INFO]: [PlayerAuctions] Vault found, now enabling PlayerAuctions...
+[23:43:28] [Server thread/INFO]: [PlayerAuctions] Found 21 config files to load!
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Permissions plugin found! (LuckPerms)
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Economy plugin found! (EssentialsX Economy)
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Chat plugin found! (LuckPerms)
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Found PlaceholderAPI integrating support...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Found Vault Currency integrating support...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Found Product Converter integrating support...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Found Item Currency integrating support...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Found XP Currency integrating support...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] SQLite database is enabling...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Loading Metrics...
+[23:43:29] [Server thread/INFO]: [PlayerAuctions] Successfully loaded Metrics!
+[23:43:29] [Server thread/INFO]: [CSL] Enabling ChunkSpawnerLimiter v4.4.2
+[23:43:29] [Server thread/INFO]: [CSL] [ACF] Enabled Asynchronous Tab Completion Support!
+[23:43:29] [Server thread/INFO]: [CSL] [ACF] Enabled Brigadier Support!
+[23:43:29] [Server thread/WARN]: [CSL] "ChunkSpawnerLimiter v4.4.2" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void com.cyprias.chunkspawnerlimiter.libs.acf.PaperBrigadierManager.onCommandRegister(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [Cyprias, sarhatabaot].
+[23:43:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.2-SNAPSHOT
+[23:43:30] [Server thread/INFO]: [spark] Starting background profiler...
+[23:43:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:43:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:43:30] [Server thread/INFO]: [Geyser-Spigot] 
+[23:43:30] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.2-b645 (git-master-ee43ef8)
+[23:43:30] [Server thread/INFO]: [Geyser-Spigot] 
+[23:43:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:43:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2481
+[23:43:37] [Server thread/INFO]: [Geyser-Spigot] Done (6.877s)! Run /geyser help for help!
+[23:43:37] [Server thread/INFO]: Done preparing level "world" (22.558s)
+[23:43:37] [Server thread/INFO]: Running delayed init tasks
+[23:43:37] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:43:37] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[23:43:37] [Craft Scheduler Thread - 12 - PlayerAuctions/INFO]: [PlayerAuctions] Loading auction items...
+[23:43:37] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.90. Download it here: https://geysermc.org/download
+[23:43:37] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[23:43:37] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:43:37] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
+[23:43:37] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
+[23:43:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pa [1.31.1]
+[23:43:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
+[23:43:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[23:43:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[23:43:37] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[23:43:37] [Server thread/INFO]: Done (44.137s)! For help, type "help"
+[23:43:37] [Server thread/INFO]: Timings Reset
+[23:43:37] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[23:43:37] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[23:43:37] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[23:43:59] [User Authenticator #0/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[23:43:59] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[23:43:59] [Server thread/INFO]: lionel133 joined the game
+[23:43:59] [Server thread/INFO]: lionel133[/127.7.242.196:34369] logged in with entity id 179 at ([world]-57.02387168646695, 142.0, 42.31232082820299)
+[23:44:00] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 50.672349ms. Summary: Getting group for lionel133
+[23:48:01] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[23:48:01] [Server thread/INFO]: ohpaulo lionel133 left the game
