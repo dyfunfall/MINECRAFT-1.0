@@ -784,3 +784,5 @@ java.util.ConcurrentModificationException: null
 [15:47:30] [Server thread/INFO]: Unknown or incomplete command, see below for error
 /tps<--[HERE]
 [15:48:24] [Async Chat Thread - #2/INFO]: [Not Secure] <stuguf> YAYA}
+[15:51:37] [Server thread/INFO]: stuguf was doomed to fall by Skeleton
+[15:53:29] [Server thread/INFO]: lionel133 was slain by stuguf
