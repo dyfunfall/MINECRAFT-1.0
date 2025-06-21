@@ -3902,3 +3902,145 @@ Caused by: java.lang.IllegalArgumentException: Scoreboard mode is not defined in
 [17:00:47] [Async Chat Thread - #32/INFO]: [Not Secure] [mostaseros] <andhygs100> preparate
 [17:00:53] [Async Chat Thread - #32/INFO]: [Not Secure] [mostaseros] <lionel133> por que
 [17:00:55] [Async Chat Thread - #32/INFO]: [Not Secure] [mostaseros] <lionel133> tmr
+[17:01:38] [Server thread/INFO]: mostaseros lionel133 has made the advancement [Suit Up]
+[17:01:49] [Server thread/INFO]: mostaseros lionel133 has made the advancement [Not Today, Thank You]
+[17:02:21] [Async Chat Thread - #34/INFO]: [Not Secure] [mostaseros] <lionel133> xd
+[17:03:29] [Server thread/INFO]: mostaseros lionel133 was slain by Vindicator
+[17:03:33] [Server thread/INFO]: lionel133 issued server command: /tp lionel133 andhygs100
+[17:03:41] [Server thread/ERROR]: Could not pass event PlayerInteractEntityEvent to Jobs v5.2.6.0
+java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does not have member field 'net.Zrips.CMILib.Entities.CMIEntityType MOOSHROOM'
+	at Jobs5.2.6.0.jar/com.gamingmesh.jobs.listeners.JobsPaymentListener.onCowMilking(JobsPaymentListener.java:255) ~[Jobs5.2.6.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor520.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:84) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.performInteraction(ServerGamePacketListenerImpl.java:2793) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.onInteraction(ServerGamePacketListenerImpl.java:2841) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.dispatch(ServerboundInteractPacket.java:138) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:89) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2782) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:76) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:03:45] [Server thread/INFO]: mostaseros lionel133 was doomed to fall by Vindicator
+[17:03:47] [Server thread/INFO]: mostaseros andhygs100 was slain by Vindicator
+[17:03:48] [Server thread/INFO]: lionel133 issued server command: /tp lionel133 andhygs100
+[17:03:51] [Server thread/INFO]: mostaseros lionel133 was slain by Vindicator
+[17:03:53] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> mr
+[17:03:54] [Server thread/INFO]: lionel133 issued server command: /tp lionel133 andhygs100
+[17:03:58] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> xd
+[17:03:59] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> as to
+[17:04:02] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> ya
+[17:04:06] [Server thread/INFO]: lionel133 issued server command: /gamemode spectator
+[17:04:09] [Server thread/INFO]: mostaseros andhygs100 fell from a high place
+[17:04:34] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> leo
+[17:04:36] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> que
+[17:04:41] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> as tp
+[17:04:47] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> estoy buscando
+[17:05:01] [Server thread/INFO]: lionel133 issued server command: /gamemode survival
+[17:05:11] [Server thread/INFO]: lionel133 issued server command: /tp andhygs100 lionel133
+[17:05:16] [Server thread/INFO]: Villager Villager['Villager'/22901, uuid='f519d209-f8f9-4525-99f4-dd4d01bee75a', l='ServerLevel[world]', x=272.01, y=75.00, z=-426.93, cpos=[17, -27], tl=3035, v=true] died, message: 'Villager was slain by Vindicator'
+[17:05:29] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> gg?
+[17:05:49] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> la invasion
+[17:06:04] [Server thread/ERROR]: Could not pass event PlayerInteractEntityEvent to Jobs v5.2.6.0
+java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does not have member field 'net.Zrips.CMILib.Entities.CMIEntityType MOOSHROOM'
+	at Jobs5.2.6.0.jar/com.gamingmesh.jobs.listeners.JobsPaymentListener.onCowMilking(JobsPaymentListener.java:255) ~[Jobs5.2.6.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor520.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:84) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.performInteraction(ServerGamePacketListenerImpl.java:2793) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.onInteraction(ServerGamePacketListenerImpl.java:2841) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.dispatch(ServerboundInteractPacket.java:138) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:89) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2782) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:76) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:06:04] [Server thread/ERROR]: Could not pass event PlayerInteractEntityEvent to Jobs v5.2.6.0
+java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does not have member field 'net.Zrips.CMILib.Entities.CMIEntityType MOOSHROOM'
+	at Jobs5.2.6.0.jar/com.gamingmesh.jobs.listeners.JobsPaymentListener.onCowMilking(JobsPaymentListener.java:255) ~[Jobs5.2.6.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor520.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:84) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.performInteraction(ServerGamePacketListenerImpl.java:2793) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.onInteraction(ServerGamePacketListenerImpl.java:2841) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.dispatch(ServerboundInteractPacket.java:138) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:89) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2782) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:76) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:06:04] [Server thread/INFO]: mostaseros andhygs100 was slain by Vindicator
+[17:06:11] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> ptme
+[17:06:15] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> aaa
+[17:06:17] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> as tp
+[17:06:25] [Server thread/INFO]: mostaseros lionel133 was shot by Skeleton
+[17:06:27] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> xd
+[17:06:31] [Server thread/INFO]: lionel133 issued server command: /gamemode spectator
+[17:06:37] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> oh paulo
+[17:06:49] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <andhygs100> o ya
+[17:07:18] [Server thread/INFO]: lionel133 issued server command: /gamemode survival
+[17:07:21] [Server thread/INFO]: lionel133 issued server command: /tp andhygs100 lionel133
+[17:07:35] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> en la mañana
+[17:07:38] [Server thread/INFO]: mostaseros lionel133 has made the advancement [Sweet Dreams]
+[17:07:58] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> rya?
+[17:08:14] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> duerme
+[17:08:47] [Server thread/INFO]: mostaseros lionel133 was blown up by Creeper
+[17:08:52] [Async Chat Thread - #36/INFO]: [Not Secure] [mostaseros] <lionel133> a
+[17:09:22] [Server thread/INFO]: mostaseros lionel133 fell from a high place
+[17:10:30] [Async Chat Thread - #38/INFO]: [Not Secure] [mostaseros] <andhygs100> ponme en espectador
+[17:10:35] [Async Chat Thread - #38/INFO]: [Not Secure] [mostaseros] <lionel133> ya
+[17:10:42] [Server thread/INFO]: lionel133 issued server command: /gamemode spectator andhygs100
