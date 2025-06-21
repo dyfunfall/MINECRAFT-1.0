@@ -227,3 +227,29 @@ java.lang.NullPointerException: Cannot invoke "cc.synkdev.synkLibs.components.Sy
 [15:21:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
 [15:26:21] [Server thread/INFO]: [UltimateShop] Auto saving data...
 [15:26:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[15:31:21] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[15:31:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[15:35:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/msg stufg hola<--[HERE]
+[15:35:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tell stufug hola<--[HERE]
+[15:35:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tell holoa stufug<--[HERE]
+[15:36:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tell stuguf yaya<--[HERE]
+[15:36:14] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tell stuguf<--[HERE]
+[15:36:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tell stuguf yayayay<--[HERE]
+[15:36:21] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[15:36:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[15:37:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/msg stuguf hola<--[HERE]
+[15:38:56] [User Authenticator #1/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[15:38:58] [Server thread/INFO]: lionel133 joined the game
+[15:38:58] [Server thread/INFO]: lionel133[/127.7.242.196:43329] logged in with entity id 6735 at ([world]-53.25990302703039, 137.0, 38.28768466539664)
+[15:39:02] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> o
+[15:39:12] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> estas afk
+[15:39:15] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> bienn
+[15:39:37] [Server thread/INFO]: lionel133 issued server command: /sethome
+[15:40:21] [Server thread/INFO]: lionel133 issued server command: /tell stuguf yaa
