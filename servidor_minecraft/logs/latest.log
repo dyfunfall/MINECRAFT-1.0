@@ -290,3 +290,75 @@ java.util.concurrent.CancellationException: null
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [23:22:29] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason java.util.concurrent.CancellationException
 [23:25:22] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username NoNhE3157
+[23:27:26] [Server thread/INFO]: Stopping server
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason Apagando el proxy de Geyser.
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[23:27:26] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[23:27:26] [Server thread/INFO]: [CSL] Disabling ChunkSpawnerLimiter v4.4.2
+[23:27:26] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.31.1
+[23:27:26] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
+[23:27:26] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
+[23:27:26] [Server thread/INFO]: ------------- Jobs -------------
+[23:27:26] [Server thread/INFO]: Cleared boss bar cache
+[23:27:26] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[23:27:26] [Server thread/INFO]: Saved player data
+[23:27:26] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[23:27:26] [Server thread/INFO]: Closed database connection
+[23:27:26] [Server thread/INFO]: ------------------------------------
+[23:27:26] [Server thread/INFO]: [UltimateShop] Disabling UltimateShop v3.8.2
+[23:27:26] [Server thread/INFO]: [UltimateShop] Plugin is disabled. Author: PQguanfang.
+[23:27:26] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v2.1
+[23:27:26] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[23:27:26] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.4
+[23:27:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
+[23:27:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[23:27:26] [Server thread/INFO]: [SynkLibs] Disabling SynkLibs v1.8.1
+[23:27:26] [Server thread/ERROR]: Error occurred while disabling SynkLibs v1.8.1
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:539) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:243) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:239) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:190) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:159) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at SynkLibs-1.8.1.jar/cc.synkdev.synkLibs.bukkit.SynkLibs.onDisable(SynkLibs.java:119) ~[SynkLibs-1.8.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:609) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1046) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:27:26] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[23:27:26] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:27:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[23:27:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:27:26] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:27:26] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:27:26] [Server thread/INFO]: Saving players
+[23:27:27] [Server thread/INFO]: Saving worlds
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 75 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
