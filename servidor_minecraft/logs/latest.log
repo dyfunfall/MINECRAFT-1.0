@@ -4728,3 +4728,61 @@ java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does n
 [17:30:10] [Server thread/INFO]: stuguf issued server command: /plugins
 [17:30:10] [Server thread/INFO]: lionel133 issued server command: /setwarp
 [17:30:21] [Async Chat Thread - #48/INFO]: [Not Secure] [mostaseros] <lionel133> espera de pongo coadim
+[17:31:46] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <lionel133> ya
+[17:31:51] [Server thread/INFO]: lionel133 issued server command: /deop Unrandommas415
+[17:31:51] [Server thread/INFO]: [mostaseros lionel133: Made Unrandommas415 no longer a server operator]
+[17:31:55] [Server thread/INFO]: lionel133 issued server command: /deop lionel133
+[17:31:55] [Server thread/INFO]: [mostaseros lionel133: Made lionel133 no longer a server operator]
+[17:31:58] [Server thread/INFO]: lionel133 issued server command: /sethome
+[17:31:58] [Server thread/INFO]: [Essentials] lionel133 was denied access to command.
+[17:32:04] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <stuguf> q hago
+[17:32:12] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <lionel133> crea un clan
+[17:32:16] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <lionel133> salte de ese clan
+[17:32:22] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <stuguf> como hago eso
+[17:32:25] [Async Chat Thread - #50/INFO]: [Not Secure] [mostaseros] <lionel133> ./team leave
+[17:32:30] [Server thread/INFO]: lionel133 issued server command: /team leave
+[17:32:31] [Server thread/INFO]: stuguf issued server command: /team leave
+[17:32:39] [Async Chat Thread - #50/INFO]: [Not Secure] <lionel133> ./team create (nombre)
+[17:32:47] [Server thread/INFO]: stuguf issued server command: /team create ohpaulo
+[17:32:57] [Server thread/INFO]: lionel133 issued server command: /sethome
+[17:32:57] [Server thread/INFO]: [Essentials] lionel133 was denied access to command.
+[17:33:01] [Async Chat Thread - #50/INFO]: [Not Secure] <lionel133> ./sethome
+[17:33:05] [Async Chat Thread - #50/INFO]: [Not Secure] <lionel133> invitame
+[17:33:06] [Server thread/INFO]: stuguf issued server command: /sethome
+[17:33:06] [Server thread/INFO]: [Essentials] stuguf was denied access to command.
+[17:33:09] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> no se puede
+[17:33:13] [Async Chat Thread - #50/INFO]: [Not Secure] <lionel133> ./team invite (minombre)
+[17:33:19] [Async Chat Thread - #50/INFO]: [Not Secure] <lionel133> ya lo has creado
+[17:33:19] [Server thread/INFO]: stuguf issued server command: /team invite lionel133
+[17:33:22] [Server thread/INFO]: lionel133 issued server command: /team join ohpaulo
+[17:33:28] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> crea ./sethome
+[17:33:48] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> crea ./sethome
+[17:34:11] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> ya?
+[17:34:12] [Server thread/INFO]: stuguf issued server command: /team sethome
+[17:34:13] [Server thread/INFO]: lionel133 issued server command: /home
+[17:34:13] [Server thread/INFO]: [Essentials] lionel133 was denied access to command.
+[17:34:19] [Server thread/INFO]: stuguf issued server command: /team home
+[17:34:28] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> es /team sethome
+[17:34:32] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> si xd
+[17:34:38] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> y para venir aqui es /team home
+[17:34:43] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> si
+[17:35:00] [Server thread/INFO]: lionel133 issued server command: /team home
+[17:35:23] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> ya vengo
+[17:35:25] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> gvoy a minar
+[17:35:26] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> ya
+[17:35:36] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> pon ./jobs browser
+[17:35:41] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> para ver los trabajos
+[17:35:50] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> amximo 3 trabajos puedes estar
+[17:36:11] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <stuguf> como era para poner
+[17:36:16] [Async Chat Thread - #50/INFO]: [Not Secure] [ohpaulo] <lionel133> pon ./jobs browser
+[17:36:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/weather clean<--[HERE]
+[17:36:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/weather sunnny<--[HERE]
+[17:36:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/weather set sunny<--[HERE]
+[17:40:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/eco give lionel133 1000<--[HERE]
+[17:40:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/eco give money lionel133 1000<--[HERE]
+[17:41:39] [Server thread/INFO]: lionel133 issued server command: /shop
