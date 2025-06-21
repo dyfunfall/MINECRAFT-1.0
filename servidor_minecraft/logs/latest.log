@@ -1735,3 +1735,13 @@ java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does n
 [05:01:23] [Server thread/INFO]: lionel133 was shot by Skeleton
 [05:01:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
 [05:01:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[05:03:30] [Server thread/INFO]: andhygs100 issued server command: /shop
+[05:03:38] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[05:03:38] [Server thread/INFO]: lionel133 left the game
+[05:04:28] [Server thread/INFO]: mostaseros andhygs100 has made the advancement [Sweet Dreams]
+[05:06:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[05:06:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[05:09:15] [Server thread/INFO]: andhygs100 lost connection: Disconnected
+[05:09:15] [Server thread/INFO]: mostaseros andhygs100 left the game
+[05:11:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[05:11:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
