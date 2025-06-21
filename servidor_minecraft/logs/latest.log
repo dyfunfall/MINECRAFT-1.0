@@ -215,3 +215,7 @@ java.lang.NullPointerException: Cannot invoke "cc.synkdev.synkLibs.components.Sy
 [14:58:24] [Server thread/INFO]: stuguf was shot by Skeleton
 [14:58:37] [Server thread/INFO]: stuguf was shot by Skeleton
 [14:59:02] [Server thread/INFO]: stuguf fell from a high place
+[15:01:21] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[15:01:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[15:06:21] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[15:06:21] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
