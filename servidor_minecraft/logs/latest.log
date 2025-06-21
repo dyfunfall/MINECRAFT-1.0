@@ -358,3 +358,319 @@ java.util.ConcurrentModificationException: null
 [03:42:27] [Async Chat Thread - #3/INFO]: [Not Secure] [pajaro] <lionel133> donde esta stuar
 [03:42:34] [Async Chat Thread - #2/INFO]: [Not Secure] <stuguf> colgado
 [03:42:35] [Server thread/INFO]: pajaro lionel133 was blown up by Creeper
+[03:42:57] [Async Chat Thread - #2/INFO]: [Not Secure] [pajaro] <lionel133> que ahn hecho
+[03:43:36] [Server thread/INFO]: pajaro lionel133 was slain by Zombie
+[03:44:06] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> stuar
+[03:44:11] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> dime
+[03:44:24] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> donde estas
+[03:44:31] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> noshe
+[03:44:38] [Server thread/INFO]: lionel133 issued server command: /reload
+[03:44:38] [Server thread/INFO]: lionel133: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[03:44:45] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> ven al spaw
+[03:44:46] [Server thread/INFO]: lionel133 issued server command: /reload confirm
+[03:44:46] [Server thread/INFO]: lionel133: Please note that this command is not supported and may cause issues when using some plugins.
+[03:44:46] [Server thread/INFO]: lionel133: If you encounter any issues please use the /stop command to restart your server.
+[03:44:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:44:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:44:47] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[03:44:47] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:44:47] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:44:47] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.1.4
+[03:44:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+117-c80bef9
+[03:44:47] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[03:44:47] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v1.4.1
+[03:44:47] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3-SNAPSHOT
+[03:44:47] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[03:44:47] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[03:44:47] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[03:44:47] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:44:47] [Server thread/INFO]: Loaded 1290 recipes
+[03:44:47] [Server thread/INFO]: Loaded 1399 advancements
+[03:44:47] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:44:47] [Paper Async Command Builder Thread Pool - 6/ERROR]: Caught previously unhandled exception :
+[03:44:47] [Paper Async Command Builder Thread Pool - 6/ERROR]: Paper Async Command Builder Thread Pool - 6
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:44:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
+[03:44:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 131ms.
+[03:44:48] [Server thread/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[03:44:48] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - BetterTeams (4.13.2), CMILib (1.5.1.4), Essentials (2.21.0-dev+117-c80bef9), Geyser-Spigot (2.4.2-SNAPSHOT), NexusAuctionHouse (1.4.1), PlayerAuctions (1.29.0), SynkLibs (1.6), SynkLibs (1.7), Vault (1.7.3-b131), ViaBackwards (5.0.3-SNAPSHOT), ViaVersion (5.0.3)
+[03:44:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'SynkLibs' for files 'plugins/.paper-remapped/SynkLibs-1.6.jar' and 'plugins/.paper-remapped/SynkLibs-1.7.jar' in 'plugins/.paper-remapped'
+[03:44:48] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[03:44:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[03:44:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[03:44:48] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[03:44:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:44:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:44:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:44:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:44:52] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.6
+[03:44:52] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.2
+[03:44:52] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[03:44:52] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[03:44:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3-SNAPSHOT
+[03:44:52] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v1.4.1
+[03:44:52] [Server thread/INFO]: [PlayerAuctions] Loading server plugin PlayerAuctions v1.29.0
+[03:44:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+117-c80bef9
+[03:44:52] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.1.4
+[03:44:52] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.2-SNAPSHOT
+[03:44:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:44:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:44:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:44:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[03:44:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:44:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:44:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[03:44:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[03:44:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[03:44:54] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.6
+[03:44:55] [Server thread/ERROR]: Error occurred while enabling SynkLibs v1.6 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "cc.synkdev.synkLibs.components.SynkPlugin.prefix()" because the return value of "cc.synkdev.synkLibs.bukkit.SynkLibs.getSpl()" is null
+	at SynkLibs-1.6.jar/cc.synkdev.synkLibs.bukkit.Utils.log(Utils.java:24) ~[SynkLibs-1.6.jar:?]
+	at SynkLibs-1.6.jar/cc.synkdev.synkLibs.bukkit.Lang.init(Lang.java:77) ~[SynkLibs-1.6.jar:?]
+	at SynkLibs-1.6.jar/cc.synkdev.synkLibs.bukkit.SynkLibs.onEnable(SynkLibs.java:41) ~[SynkLibs-1.6.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1132) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:44:55] [Server thread/INFO]: [SynkLibs] Disabling SynkLibs v1.6
+[03:44:55] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.2
+[03:44:55] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@2fb72114
+[03:44:55] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[03:44:55] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[03:44:55] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.deposit
+[03:44:55] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.bal
+[03:44:55] [Server thread/WARN]: [BetterTeams] Could not find the message with the reference command.withdraw
+[03:44:55] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[03:44:55] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[03:44:55] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@43db328e
+[03:44:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3-SNAPSHOT
+[03:44:55] [Server thread/INFO]: [NexusAuctionHouse] Enabling NexusAuctionHouse v1.4.1
+[03:44:55] [Server thread/INFO]: You are missing plugin dependancies! Please download the following: SynkLibs
+[03:44:55] [Server thread/INFO]: [PlayerAuctions] Enabling PlayerAuctions v1.29.0
+[03:44:55] [Server thread/INFO]: [PlayerAuctions] Vault found, now enabling PlayerAuctions...
+[03:44:56] [Server thread/INFO]: [PlayerAuctions] Found 21 config files to load!
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Permissions plugin found! (SuperPerms)
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Economy plugin found! (EssentialsX Economy)
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Found Vault Currency integrating support...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Found Product Converter integrating support...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Found Item Currency integrating support...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Found XP Currency integrating support...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] SQLite database is enabling...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Loading Metrics...
+[03:44:58] [Server thread/INFO]: [PlayerAuctions] Successfully loaded Metrics!
+[03:44:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+117-c80bef9
+[03:44:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:44:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:44:59] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[03:44:59] [Server thread/INFO]: [Essentials] Using locale en
+[03:44:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:45:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:45:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[03:45:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:45:00] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.1.4
+[03:45:01] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.1 - paper  1.21.1-57-b483da4 (MC: 1.21.1)
+[03:45:01] [Server thread/INFO]: Updated (EN) language file. Took 41ms
+[03:45:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.2-SNAPSHOT
+[03:45:02] [Paper Async Command Builder Thread Pool - 7/ERROR]: Caught previously unhandled exception :
+[03:45:02] [Paper Async Command Builder Thread Pool - 7/ERROR]: Paper Async Command Builder Thread Pool - 7
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:45:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:45:02] [Server thread/INFO]: [Geyser-Spigot] 
+[03:45:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.2-b645 (git-master-ee43ef8)
+[03:45:02] [Server thread/INFO]: [Geyser-Spigot] 
+[03:45:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:45:03] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> ese serv mas lageado
+[03:45:03] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> te tepeo
+[03:45:08] [epollEventLoopGroup-15-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[03:45:08] [Server thread/INFO]: [Geyser-Spigot] Done (6.805s)! Run /geyser help for help!
+[03:45:09] [ForkJoinPool.commonPool-worker-7/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.90. Download it here: https://geysermc.org/download
+[03:45:09] [Server thread/INFO]: lionel133: Reload complete.
+[03:45:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22228ms or 444 ticks behind
+[03:45:09] [Server thread/INFO]: Timings Reset
+[03:45:09] [Craft Scheduler Thread - 22 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[03:45:09] [Craft Scheduler Thread - 22 - PlayerAuctions/INFO]: [PlayerAuctions] Loading auction items...
+[03:45:09] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[03:45:09] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
+[03:45:09] [Craft Scheduler Thread - 27 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[03:45:09] [Craft Scheduler Thread - 25 - PlayerAuctions/INFO]: [PlayerAuctions] PA » PlayerAuctions v1.31.1 is out! You are still running v1.29.0!
+[03:45:09] [Craft Scheduler Thread - 23 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:45:09] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.0, you're on: 5.0.3
+[03:45:09] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> no
+[03:45:09] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
+[03:45:09] [Craft Scheduler Thread - 23 - Essentials/WARN]: [Essentials] You're 101 EssentialsX dev build(s) out of date!
+[03:45:09] [Craft Scheduler Thread - 23 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[03:45:09] [Craft Scheduler Thread - 25 - PlayerAuctions/INFO]: [PlayerAuctions] The latest version 1.31.1 of PlayerAuctions has just been downloaded, restart for this to apply.
+[03:45:10] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> estoy cargando algo
+[03:45:16] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> ya esta
+[03:45:20] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> sisisis
+[03:45:27] [Server thread/INFO]: lionel133 issued server command: /ah
+[03:45:30] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> ahora si
+[03:45:32] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pongan
+[03:45:34] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> tepeame
+[03:45:35] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> ./ah
+[03:45:41] [Server thread/INFO]: lionel133 issued server command: /tp andhygs100 stuguf
+[03:45:47] [Server thread/INFO]: lionel133 issued server command: /tp lionel133 stuguf
+[03:45:55] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> dame un ./ah
+[03:46:00] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> mipn
+[03:46:07] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> tmr pongan /ah
+[03:46:13] [Server thread/INFO]: andhygs100 issued server command: /ah+
+[03:46:17] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> nada
+[03:46:18] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pongan /ah
+[03:46:19] [Server thread/INFO]: andhygs100 has made the advancement [Acquire Hardware]
+[03:46:21] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> es la tienda
+[03:46:21] [Server thread/INFO]: pajaro lionel133 has made the advancement [Stone Age]
+[03:46:23] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> tmr
+[03:46:27] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> tmrrr
+[03:46:30] [Server thread/INFO]: stuguf has made the advancement [Acquire Hardware]
+[03:46:35] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pongan /ah
+[03:46:44] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pongannnnnn /ah
+[03:46:50] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> llegan al wbo
+[03:46:50] [Server thread/INFO]: andhygs100 issued server command: /ah
+[03:46:56] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> por eso la ruth te dejo
+[03:46:57] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> yata
+[03:47:10] [Server thread/INFO]: lionel133 issued server command: /balance
+[03:47:20] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> cuanto dinero les doy?
+[03:47:27] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> 100
+[03:47:27] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> no tengo pico
+[03:47:30] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pica
+[03:47:32] [Async Chat Thread - #4/INFO]: [Not Secure] <stuguf> 1000
+[03:47:36] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> pero piquen pe
+[03:47:38] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> tmr
+[03:47:44] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> esos hacen los bros?
+[03:47:49] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> oe stuar xd
+[03:47:58] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> oe
+[03:47:59] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> xd
+[03:48:03] [Server thread/INFO]: stuguf issued server command: /ah
+[03:48:15] [Async Chat Thread - #4/INFO]: [Not Secure] [pajaro] <lionel133> ya les doy 1000
+[03:48:18] [Server thread/INFO]: lionel133 issued server command: /ah
+[03:48:39] [Async Chat Thread - #4/INFO]: [Not Secure] <andhygs100> tienes comida
+[03:48:48] [Server thread/INFO]: lionel133 issued server command: /money andhygs100 1000
+[03:48:56] [Server thread/INFO]: lionel133 issued server command: /money andhygs100
+[03:49:05] [Server thread/INFO]: lionel133 issued server command: /money andhygs100 give 1000
+[03:49:13] [Server thread/INFO]: stuguf has made the advancement [Suit Up]
+[03:49:20] [Server thread/INFO]: lionel133 issued server command: /give stuguf money 1000
+[03:49:27] [Server thread/INFO]: lionel133 issued server command: /give stuguf money 64}
+[03:49:37] [Server thread/INFO]: lionel133 issued server command: /money give 1000
+[03:50:03] [Server thread/INFO]: stuguf has made the advancement [Isn't It Iron Pick]
+[03:50:11] [Async Chat Thread - #6/INFO]: [Not Secure] <andhygs100> y yo
+[03:50:30] [Server thread/INFO]: lionel133 issued server command: /eco give stuguf 1000
+[03:50:39] [Server thread/INFO]: lionel133 issued server command: /eco give andhygs100 1000
+[03:50:47] [Async Chat Thread - #6/INFO]: [Not Secure] [pajaro] <lionel133> si ponen ./balance estara su dinero
+[03:50:57] [Async Chat Thread - #6/INFO]: [Not Secure] <andhygs100> okoko
+[03:51:00] [Async Chat Thread - #6/INFO]: [Not Secure] [pajaro] <lionel133> despues pondre un cartel en la pantalla para que apresca su dinero
+[03:51:11] [Async Chat Thread - #6/INFO]: [Not Secure] [pajaro] <lionel133> voy a poner una tienda de cualquier item
+[03:51:17] [Server thread/INFO]: andhygs100 has made the advancement [Isn't It Iron Pick]
+[03:52:11] [Server thread/INFO]: stuguf has made the advancement [Monster Hunter]
+[03:52:21] [Server thread/INFO]: stuguf was shot by Skeleton
+[03:52:29] [Async Chat Thread - #8/INFO]: [Not Secure] [pajaro] <lionel133> se va a lagear un poco
+[03:52:34] [Async Chat Thread - #9/INFO]: [Not Secure] [pajaro] <lionel133> voy a poner la otra tienda
+[03:52:39] [Server thread/INFO]: lionel133 issued server command: /reload
+[03:52:39] [Server thread/INFO]: lionel133: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[03:52:44] [Server thread/INFO]: lionel133 issued server command: /reload confirm
+[03:52:44] [Server thread/INFO]: lionel133: Please note that this command is not supported and may cause issues when using some plugins.
+[03:52:44] [Server thread/INFO]: lionel133: If you encounter any issues please use the /stop command to restart your server.
+[03:52:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:52:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:52:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[03:52:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:52:45] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:52:45] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.1.4
+[03:52:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+117-c80bef9
+[03:52:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:52:45] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[03:52:45] [Server thread/INFO]: [PlayerAuctions] New Economy plugin found! (Essentials Economy)
+[03:52:45] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.29.0
+[03:52:45] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v1.4.1
+[03:52:45] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3-SNAPSHOT
+[03:52:45] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[03:52:45] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[03:52:45] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[03:52:45] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:52:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:52:45] [Server thread/INFO]: Loaded 1290 recipes
+[03:52:45] [Server thread/INFO]: Loaded 1399 advancements
+[03:52:45] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:52:45] [Paper Async Command Builder Thread Pool - 9/ERROR]: Caught previously unhandled exception :
+[03:52:45] [Paper Async Command Builder Thread Pool - 9/ERROR]: Paper Async Command Builder Thread Pool - 9
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:52:46] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlayerAuctions 1.29.0.jar'...
+[03:52:46] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/UltimateShop-3.8.2.jar'...
+[03:52:46] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlayerAuctions 1.29.0.jar' in 309ms.
+[03:52:46] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/UltimateShop-3.8.2.jar' in 316ms.
+[03:52:46] [Server thread/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[03:52:46] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - BetterTeams (4.13.2), CMILib (1.5.1.4), Essentials (2.21.0-dev+117-c80bef9), Geyser-Spigot (2.4.2-SNAPSHOT), NexusAuctionHouse (1.4.1), PlayerAuctions (1.31.1), SynkLibs (1.6), SynkLibs (1.7), UltimateShop (3.8.2), Vault (1.7.3-b131), ViaBackwards (5.0.3-SNAPSHOT), ViaVersion (5.0.3)
+[03:52:46] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'SynkLibs' for files 'plugins/.paper-remapped/SynkLibs-1.6.jar' and 'plugins/.paper-remapped/SynkLibs-1.7.jar' in 'plugins/.paper-remapped'
+[03:52:47] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[03:52:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[03:52:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[03:52:47] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[03:52:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:52:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:52:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:52:49] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:52:51] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.6
+[03:52:51] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.2
+[03:52:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[03:52:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[03:52:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3-SNAPSHOT
+[03:52:51] [Server thread/INFO]: [UltimateShop] Loading server plugin UltimateShop v3.8.2
+[03:52:51] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v1.4.1
+[03:52:51] [Server thread/INFO]: [PlayerAuctions] Loading server plugin PlayerAuctions v1.31.1
