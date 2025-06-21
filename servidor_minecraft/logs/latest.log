@@ -1607,3 +1607,18 @@ java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does n
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [04:31:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
 [04:31:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[04:36:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[04:36:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[04:39:36] [Async Chat Thread - #18/INFO]: [Not Secure] [pajaro] <lionel133> sigues jugando? xdc
+[04:39:42] [Async Chat Thread - #18/INFO]: [Not Secure] <andhygs100> si
+[04:40:10] [Async Chat Thread - #18/INFO]: [Not Secure] [pajaro] <lionel133> hasta las 24 y me voy xd
+[04:40:27] [Async Chat Thread - #18/INFO]: [Not Secure] <andhygs100> okkko
+[04:40:45] [Async Chat Thread - #18/INFO]: [Not Secure] [pajaro] <lionel133> aunque si me salgo no se apaga el server
+[04:40:51] [Async Chat Thread - #18/INFO]: [Not Secure] <andhygs100> aaa
+[04:40:53] [Async Chat Thread - #19/INFO]: [Not Secure] <andhygs100> okok
+[04:41:19] [Async Chat Thread - #19/INFO]: [Not Secure] <andhygs100> me dio calambre
+[04:41:25] [Server thread/INFO]: lionel133 issued server command: /jobs join Woodcutter
+[04:41:27] [Async Chat Thread - #19/INFO]: [Not Secure] [pajaro] <lionel133> mucha paja
+[04:41:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[04:41:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[04:42:13] [Server thread/INFO]: lionel133 issued server command: /jobs join Digger
