@@ -1622,3 +1622,13 @@ java.lang.NoSuchFieldError: Class net.Zrips.CMILib.Entities.CMIEntityType does n
 [04:41:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
 [04:41:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
 [04:42:13] [Server thread/INFO]: lionel133 issued server command: /jobs join Digger
+[04:44:04] [Server thread/INFO]: lionel133 issued server command: /ultimateshop
+[04:44:20] [Server thread/INFO]: lionel133 issued server command: /shop
+[04:46:24] [Server thread/INFO]: lionel133 issued server command: /jobs list
+[04:46:30] [Server thread/INFO]: lionel133 issued server command: /jobs archive
+[04:46:35] [Server thread/INFO]: lionel133 issued server command: /jobs browse
+[04:46:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[04:46:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[04:46:58] [Server thread/INFO]: lionel133 issued server command: /ultimateshop
+[04:51:45] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[04:51:45] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
