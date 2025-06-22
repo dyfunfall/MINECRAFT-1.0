@@ -1224,3 +1224,129 @@ java.util.ConcurrentModificationException: null
 [23:06:39] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Okay, I'm here! Let me grab that sword... *picks up the stone sword* Now, where are those zombies, lionel133?
 [23:06:49] [Server thread/INFO]: Jenny lost connection: Disconnected
 [23:06:49] [Server thread/INFO]: Jenny left the game
+[23:09:05] [User Authenticator #8/INFO]: UUID of player Builder is a1b1b4de-45be-3659-b2e1-5c9a1693e63b
+[23:09:06] [Server thread/INFO]: Builder joined the game
+[23:09:06] [Server thread/INFO]: Builder[/127.7.242.196:48313] logged in with entity id 5851 at ([world]14.5, 126.0, 80.5)
+[23:09:07] [Server thread/INFO]: Builder issued server command: /list
+[23:09:07] [Server thread/INFO]: [Essentials] Builder was denied access to command.
+[23:09:07] [Server thread/INFO]: Builder issued server command: /tp lionel133
+[23:09:07] [Server thread/INFO]: [Essentials] Builder was denied access to command.
+[23:09:08] [Server thread/INFO]: Builder issued server command: /tell lionel133 Hello lionel133! Builder Man at your service! How can I help you today?
+[23:09:09] [Server thread/INFO]: Builder issued server command: /skin set web classic "http://textures.minecraft.net/texture/bfb464372dcaabe5df41340e9be3bd448432108bec033df2aa11e5c5e4f380ea"
+[23:09:14] [Async Chat Thread - #23/INFO]: [Not Secure] [ohpaulo] <lionel133> a house
+[23:09:14] [Server thread/INFO]: Builder issued server command: /skin set web classic "http://textures.minecraft.net/texture/bfb464372dcaabe5df41340e9be3bd448432108bec033df2aa11e5c5e4f380ea"
+[23:09:21] [Server thread/INFO]: Builder issued server command: /tell lionel133 On my way, Lionel133!
+[23:09:36] [Async Chat Thread - #23/INFO]: [Not Secure] [ohpaulo] <lionel133> where are you?
+[23:09:40] [Server thread/INFO]: Builder issued server command: /tell lionel133 Greetings, Lionel133! Builder Man is here. What can I build for you?
+[23:09:45] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder -1 120 72
+[23:09:46] [Server thread/INFO]: Builder issued server command: /tell lionel133 Please enable cheats (in the Minecraft Game Menu press 'Open to LAN', then select 'Allow Cheats: ON')! I cannot teleport to you / build complex structures without cheats enabled.
+[23:09:47] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 3 119 72
+[23:09:49] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 1 118 71
+[23:09:51] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 1 120 72
+[23:09:59] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 1 118 71
+[23:10:01] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 5 117 72
+[23:10:03] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 8 117 72
+[23:10:11] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 10 124 76
+[23:10:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/op Builder<--[HERE]
+[23:10:31] [Server thread/INFO]: Made Builder a server operator
+[23:10:36] [Async Chat Thread - #25/INFO]: [Not Secure] [ohpaulo] <lionel133> come on
+[23:10:41] [Server thread/INFO]: Builder issued server command: /execute in overworld run teleport Builder 1 118 71
+[23:11:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tpa 
+[23:11:04] [Server thread/INFO]: Error: Only in-game players can use tpa.
+[23:11:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp Builder lionel133
+[23:11:30] [Async Chat Thread - #25/INFO]: [Not Secure] [ohpaulo] <lionel133> hi
+[23:11:43] [Async Chat Thread - #25/INFO]: [Not Secure] [ohpaulo] <lionel133> help
+[23:11:54] [Server thread/INFO]: lionel133 issued server command: /tell lionel133 build a house
+[23:12:05] [Server thread/INFO]: Builder issued server command: /tell lionel133 Heads up, Lionel133! I've detected zombies nearby to the West and South!
+[23:12:06] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:19] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:20] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:20] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:20] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:21] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:21] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:21] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:22] [Server thread/INFO]: lionel133 issued server command: /tell Builder build a house
+[23:12:33] [Server thread/INFO]: Builder issued server command: /tell lionel133 What's the plan, Lionel133? Builder Man is ready to build!
+[23:12:58] [Server thread/INFO]: Builder issued server command: /tell lionel133 Awaiting your command, Lionel133!
+[23:13:07] [Server thread/INFO]: ohpaulo lionel133 was slain by Enderman
+[23:13:18] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[23:13:18] [Server thread/INFO]: [UltimateShop] Can not save player data: lionel133! This is usually because this player joined the server before server fully started OR other plugins kicked this player, ask him rejoin the server.
+[23:13:18] [Server thread/INFO]: ohpaulo lionel133 left the game
+[23:13:23] [Server thread/INFO]: Stopping server
+[23:13:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.1
+[23:13:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[23:13:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[23:13:24] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[23:13:24] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.8
+[23:13:24] [Server thread/INFO]: [CSL] Disabling ChunkSpawnerLimiter v4.4.2
+[23:13:24] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.31.1
+[23:13:24] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
+[23:13:24] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
+[23:13:24] [Server thread/INFO]: ------------- Jobs -------------
+[23:13:24] [Server thread/INFO]: Cleared boss bar cache
+[23:13:24] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[23:13:24] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[23:13:24] [Server thread/INFO]: Saved player data
+[23:13:24] [Server thread/INFO]: Closed database connection
+[23:13:24] [Server thread/INFO]: ------------------------------------
+[23:13:24] [Server thread/INFO]: [UltimateShop] Disabling UltimateShop v3.8.2
+[23:13:24] [Server thread/INFO]: [UltimateShop] Plugin is disabled. Author: PQguanfang.
+[23:13:24] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v2.1
+[23:13:24] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[23:13:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.0
+[23:13:24] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.4
+[23:13:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
+[23:13:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[23:13:24] [Server thread/INFO]: [SynkLibs] Disabling SynkLibs v1.8.1
+[23:13:24] [Server thread/ERROR]: Error occurred while disabling SynkLibs v1.8.1
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:539) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:243) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:239) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:190) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:159) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at SynkLibs-1.8.1.jar/cc.synkdev.synkLibs.bukkit.SynkLibs.onDisable(SynkLibs.java:119) ~[SynkLibs-1.8.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:609) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1046) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:13:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[23:13:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:13:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[23:13:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:13:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:13:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:13:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.0
+[23:13:24] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:13:24] [Server thread/INFO]: Saving players
+[23:13:24] [Server thread/INFO]: Builder lost connection: Server closed
+[23:13:24] [Server thread/INFO]: Builder left the game
+[23:13:24] [Server thread/INFO]: Saving worlds
+[23:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saved 48 block chunks, 117 entity chunks, 0 poi chunks in world 'world' in 0.19s
+[23:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[23:13:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:13:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[23:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:13:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
