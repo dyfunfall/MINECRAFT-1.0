@@ -725,3 +725,118 @@ java.util.ConcurrentModificationException: null
 [22:46:57] [Server thread/INFO]: [ohpaulo lionel133: Made lionel133 no longer a server operator]
 [22:47:08] [User Authenticator #3/INFO]: UUID of player Jenny is 5a08205c-887c-3350-a1cf-118897542c48
 [22:47:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@3198cb6d[id=5a08205c-887c-3350-a1cf-118897542c48,name=Jenny,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTc1MDYzMjA0MzE3OCwKICAicHJvZmlsZUlkIiA6ICI1MzJjNWE1NGRiNWI0MzdiOTA1NWU3NGU1MTM2OWNhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZW5ueSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZjY3MTY3MjRlY2IzZjkzYWY2NTk1MzljNTA3ODQyYzM0YWQ4Y2E2NzM1YzRjMWUyNjBmMWI4MDk2NWEzMGNmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=, signature=Z/QasEfcwe0oBQrilzdr3/8cvm6bEWRTeXS9yGwgaGofOeeYDG8DWfdaeqDHHI6vOAndZQJK02xU2MhkKNaZ8wgOtCMcVxK7Q/qbSpaKiznKElQPxBdMgJJfhC/Er6b4GC2TSddFZBjiJI13AiW15li6qjxiFnOPhOn5HEKSDzApX8wJ44WrXfFdpIdWU1SbPIXs0fbZmclp2BlfDqol0fdpbK6av9WgcnucGL9S1jWBEqchRWM0M3L6LhfErfODHDBr9VO/CSOVhKNbsi/sNLJoVOKW+CFuO3imhQ0NusLi1AiUfRUVNJlq8N9zXzM6I8ObQJ7U2DrpY6lrUAsBHTnQIRiF0fBC63xU/y3f7hARFjM7eilr7xfP5Cy42t9AkGWL8m7wvlQV1pR4DBlZZIZe4kdSWqPcr6028Tp4BfdEkARxx2W/mpK8gWqmBvrcB/cX44gUNeV663zQgGnA4Csh+elgJxFWHkH+Bg+wuPHul26viL772oiMLPkxbKa4GLyxfK+t0k6BOvhLjsghtrdo6dpuC1nFPeUjbxROb3C7PVBn31KFWt52pRMh2rz6/Xn6g2NNVvdxmb/wyHq8Td/2E13jVHkEWcrQXEZMVtPy6pLi1VB7DMlAn9o4KJCX/xkIidJ8yGLfwXdBmgCdRkK1CcX7ttGx1HsOC1aLuL4=]]}] lost connection: Disconnected
+[22:47:34] [User Authenticator #3/INFO]: UUID of player Jenny is 5a08205c-887c-3350-a1cf-118897542c48
+[22:47:35] [Server thread/INFO]: Jenny joined the game
+[22:47:35] [Server thread/INFO]: Jenny[/127.7.242.196:58273] logged in with entity id 3832 at ([world]-63.525465118234685, 142.0, 43.38848276845504)
+[22:47:36] [Server thread/INFO]: Jenny issued server command: /list
+[22:47:36] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:47:36] [Server thread/INFO]: Jenny issued server command: /tp lionel133
+[22:47:36] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:47:37] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Welcome back, lionel133! Ready for another adventure?
+[22:47:37] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:47:38] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:47:43] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:47:46] [Server thread/INFO]: Jenny lost connection: Disconnected
+[22:47:46] [Server thread/INFO]: Jenny left the game
+[22:47:53] [User Authenticator #3/INFO]: UUID of player Jenny_lio_01 is 1824d85b-bfa6-371c-8b52-2ce20134dfe9
+[22:47:55] [Server thread/INFO]: Jenny_lio_01 joined the game
+[22:47:55] [Server thread/INFO]: Jenny_lio_01[/127.7.242.196:57395] logged in with entity id 3865 at ([world]8.5, 134.0, 79.5)
+[22:47:55] [Server thread/INFO]: Jenny_lio_01 issued server command: /list
+[22:47:55] [Server thread/INFO]: [Essentials] Jenny_lio_01 was denied access to command.
+[22:47:55] [Server thread/INFO]: Jenny_lio_01 issued server command: /tp lionel133
+[22:47:55] [Server thread/INFO]: [Essentials] Jenny_lio_01 was denied access to command.
+[22:47:57] [Server thread/INFO]: Jenny_lio_01 issued server command: /tell lionel133 Hello Lionel! My name is Jenny, ready for some Minecraft fun? 😉
+[22:47:57] [Server thread/INFO]: [Essentials] Jenny_lio_01 was denied access to command.
+[22:47:57] [Server thread/INFO]: Jenny_lio_01 issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:48:02] [Server thread/INFO]: Jenny_lio_01 issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:48:09] [Server thread/INFO]: Jenny_lio_01 issued server command: /execute in overworld run teleport Jenny_lio_01 -54 140 41
+[22:48:10] [Server thread/INFO]: Jenny_lio_01 issued server command: /tell lionel133 Please enable cheats (in the Minecraft Game Menu press 'Open to LAN', then select 'Allow Cheats: ON')! I cannot teleport to you / build complex structures without cheats enabled.
+[22:48:10] [Server thread/INFO]: [Essentials] Jenny_lio_01 was denied access to command.
+[22:48:15] [Server thread/INFO]: Jenny_lio_01 lost connection: Disconnected
+[22:48:15] [Server thread/INFO]: Jenny_lio_01 left the game
+[22:48:27] [User Authenticator #3/INFO]: UUID of player Jenny is 5a08205c-887c-3350-a1cf-118897542c48
+[22:48:28] [Server thread/INFO]: Jenny joined the game
+[22:48:28] [Server thread/INFO]: Jenny[/127.7.242.196:57973] logged in with entity id 3935 at ([world]-63.525465118234685, 142.0, 43.38848276845504)
+[22:48:29] [Server thread/INFO]: Jenny issued server command: /list
+[22:48:29] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:48:29] [Server thread/INFO]: Jenny issued server command: /tp lionel133
+[22:48:29] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:48:30] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Welcome back, lionel133! Ready for another adventure?
+[22:48:30] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:48:31] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:48:36] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:48:36] [Async Chat Thread - #15/INFO]: [Not Secure] [ohpaulo] <lionel133> hi
+[22:48:50] [Async Chat Thread - #15/INFO]: [Not Secure] [ohpaulo] <lionel133> tell me something
+[22:49:02] [Async Chat Thread - #15/INFO]: [Not Secure] [ohpaulo] <lionel133> no
+[22:49:03] [Async Chat Thread - #15/INFO]: [Not Secure] [ohpaulo] <lionel133> bad
+[22:49:26] [Server thread/INFO]: Made lionel133 a server operator
+[22:49:35] [Server thread/INFO]: Made Jenny a server operator
+[22:49:39] [Async Chat Thread - #15/INFO]: [Not Secure] [ohpaulo] <lionel133> yaya
+[22:49:47] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Careful, lionel133! There's a zombie lurking nearby!
+[22:49:59] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on the agenda today?
+[22:50:17] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What can I do for you?
+[22:50:27] [Server thread/INFO]: lionel133 issued server command: /permission group default permission set tell true
+[22:50:27] [luckperms-command-executor/INFO]: [LP] LOG > (lionel133) [G] (default)
+[22:50:27] [luckperms-command-executor/INFO]: [LP] LOG > permission set tell true
+[22:50:35] [Server thread/INFO]: lionel133 issued server command: /deop lionel133
+[22:50:35] [Server thread/INFO]: [ohpaulo lionel133: Made lionel133 no longer a server operator]
+[22:50:45] [Async Chat Thread - #17/INFO]: [Not Secure] [ohpaulo] <lionel133> dame op
+[22:50:47] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's up? Anything I can help with?
+[22:50:52] [Async Chat Thread - #17/INFO]: [Not Secure] [ohpaulo] <lionel133> dame op
+[22:51:00] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/op lionel133<--[HERE]
+[22:51:09] [Async Chat Thread - #17/INFO]: [Not Secure] [ohpaulo] <lionel133> yaa
+[22:51:14] [Server thread/INFO]: Made lionel133 a server operator
+[22:51:17] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:51:47] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:52:17] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:52:24] [Server thread/INFO]: lionel133 issued server command: /lp group default permission set luckperms true essentials:afk true
+[22:52:24] [luckperms-command-executor/INFO]: [LP] LOG > (lionel133) [G] (default)
+[22:52:24] [luckperms-command-executor/INFO]: [LP] LOG > permission set luckperms true server=essentials:afk world=true
+[22:52:47] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:53:06] [Server thread/INFO]: lionel133 issued server command: /lp group default permission set essentials.tell
+[22:53:06] [luckperms-command-executor/INFO]: [LP] LOG > (lionel133) [G] (default)
+[22:53:06] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tell true
+[22:53:11] [Server thread/INFO]: lionel133 issued server command: /deop lionel133
+[22:53:11] [Server thread/INFO]: [ohpaulo lionel133: Made lionel133 no longer a server operator]
+[22:53:17] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:53:39] [luckperms-command-executor/INFO]: [LP] Set essentials.tpa to true for default in context global.
+[22:53:46] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:53:46] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:53:47] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:53:49] [User Authenticator #4/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:53:51] [Server thread/INFO]: lionel133 joined the game
+[22:53:51] [Server thread/INFO]: lionel133[/127.7.242.196:42675] logged in with entity id 4421 at ([world]-57.735376334991834, 142.0, 42.97819037948936)
+[22:54:18] [Server thread/INFO]: Jenny issued server command: /tell lionel133 My tummy's still rumbling! Should I go find some food, lionel133?
+[22:54:20] [luckperms-command-executor/INFO]: [LP] default already has essentials.tell set in context global.
+[22:54:28] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:54:28] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:54:30] [User Authenticator #4/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:54:31] [Server thread/INFO]: lionel133 joined the game
+[22:54:31] [Server thread/INFO]: lionel133[/127.7.242.196:51155] logged in with entity id 4473 at ([world]-57.735376334991834, 142.0, 42.97819037948936)
+[22:54:48] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:55:01] [luckperms-command-executor/INFO]: [LP] Set essentials.tpaccept to true for default in context global.
+[22:55:18] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:55:48] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:56:18] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:56:23] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:56:23] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:56:25] [User Authenticator #5/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:56:27] [Server thread/INFO]: lionel133 joined the game
+[22:56:27] [Server thread/INFO]: lionel133[/127.7.242.196:44809] logged in with entity id 4646 at ([world]-57.735376334991834, 142.0, 42.97819037948936)
+[22:56:30] [Server thread/INFO]: lionel133 issued server command: /tell
+[22:56:30] [Server thread/INFO]: [Essentials] lionel133 was denied access to command.
+[22:56:48] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:56:55] [luckperms-command-executor/INFO]: [LP] default already has essentials.tell set in context global.
+[22:57:01] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:57:01] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:57:03] [User Authenticator #5/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:57:04] [Server thread/INFO]: lionel133 joined the game
+[22:57:04] [Server thread/INFO]: lionel133[/127.7.242.196:42517] logged in with entity id 4717 at ([world]-57.735376334991834, 142.0, 42.97819037948936)
+[22:57:18] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Hey lionel133! What's on your mind? Anything I can do?
+[22:57:20] [luckperms-command-executor/INFO]: [LP] Set essentials.msg to true for default in context global.
+[22:57:28] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:57:28] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:57:29] [User Authenticator #5/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:57:31] [Server thread/INFO]: lionel133 joined the game
+[22:57:31] [Server thread/INFO]: lionel133[/127.7.242.196:59371] logged in with entity id 4756 at ([world]-57.735376334991834, 142.0, 42.97819037948936)
