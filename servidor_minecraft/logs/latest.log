@@ -664,3 +664,64 @@ java.util.ConcurrentModificationException: null
 [22:37:24] [Server thread/INFO]: [Geyser-Spigot] 
 [22:37:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
 [22:37:25] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[22:37:31] [epollEventLoopGroup-9-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2481
+[22:37:31] [Server thread/INFO]: [Geyser-Spigot] Done (7.458s)! Run /geyser help for help!
+[22:37:31] [ForkJoinPool.commonPool-worker-7/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.90. Download it here: https://geysermc.org/download
+[22:37:31] [Server thread/INFO]: lionel133: Reload complete.
+[22:37:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33713ms or 674 ticks behind
+[22:37:31] [Server thread/INFO]: Timings Reset
+[22:37:31] [Craft Scheduler Thread - 101 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:37:31] [Craft Scheduler Thread - 107 - PlayerAuctions/INFO]: [PlayerAuctions] Loading auction items...
+[22:37:31] [Craft Scheduler Thread - 104 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:37:31] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:37:31] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
+[22:37:31] [Craft Scheduler Thread - 101 - BetterTeams/WARN]: [BetterTeams] &4There is a new version of better teams released update here: https://www.spigotmc.org/resources/better-teams.17129/
+[22:37:32] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
+[22:37:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pa [1.31.1]
+[22:37:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
+[22:37:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[22:37:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[22:37:32] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[22:37:32] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:37:32] [Server thread/INFO]: [UltimateShop] Can not save player data: lionel133! This is usually because this player joined the server before server fully started OR other plugins kicked this player, ask him rejoin the server.
+[22:37:32] [Server thread/INFO]: ohpaulo lionel133 left the game
+[22:37:32] [Server thread/INFO]: Jenny lost connection: Disconnected
+[22:37:32] [Server thread/INFO]: [UltimateShop] Can not save player data: Jenny! This is usually because this player joined the server before server fully started OR other plugins kicked this player, ask him rejoin the server.
+[22:37:32] [Server thread/INFO]: Jenny left the game
+[22:37:32] [Craft Scheduler Thread - 106 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:37:32] [Craft Scheduler Thread - 104 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[22:37:32] [Craft Scheduler Thread - 104 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:37:32] [Craft Scheduler Thread - 106 - Vault/INFO]: [Vault] No new version available
+[22:38:26] [User Authenticator #1/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:38:28] [Server thread/INFO]: lionel133 joined the game
+[22:38:28] [Server thread/INFO]: lionel133[/127.7.242.196:47547] logged in with entity id 3013 at ([world]-52.24541954725328, 139.0, 47.52273902405835)
+[22:38:30] [Async Chat Thread - #7/INFO]: [Not Secure] [ohpaulo] <lionel133> hi
+[22:40:43] [User Authenticator #2/INFO]: UUID of player Jenny is 5a08205c-887c-3350-a1cf-118897542c48
+[22:40:45] [Server thread/INFO]: Jenny joined the game
+[22:40:45] [Server thread/INFO]: Jenny[/127.7.242.196:33989] logged in with entity id 3207 at ([world]-50.3, 139.0, 45.3)
+[22:40:45] [Server thread/INFO]: Jenny issued server command: /list
+[22:40:45] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:40:45] [Server thread/INFO]: Jenny issued server command: /tp lionel133
+[22:40:45] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:40:46] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Welcome back, lionel133! Ready for another adventure?
+[22:40:46] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:40:47] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:40:48] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> Jenny, do something!
+[22:40:52] [Server thread/INFO]: Jenny issued server command: /skin set web slim "http://textures.minecraft.net/texture/b2c266da4916870aa2d61fd114a9831c5c375366f9cafccc0c1fbcc7faa00e0e"
+[22:40:58] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> Jenny, do something!
+[22:41:10] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> Jenny, do something!
+[22:41:17] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> caht
+[22:41:19] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> chat
+[22:41:26] [Async Chat Thread - #9/INFO]: [Not Secure] [ohpaulo] <lionel133> give me my armor
+[22:42:50] [Async Chat Thread - #11/INFO]: [Not Secure] [ohpaulo] <lionel133> give me food
+[22:43:04] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Careful, lionel133! There's a creeper lurking to the west and south!
+[22:43:04] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:44:06] [Server thread/INFO]: Jenny issued server command: /tell lionel133 Heads up, lionel133! I've spotted creepers and a zombie lurking nearby!
+[22:44:06] [Server thread/INFO]: [Essentials] Jenny was denied access to command.
+[22:44:15] [Async Chat Thread - #13/INFO]: [Not Secure] [ohpaulo] <lionel133> Build schematic 0192dfde-808f-7298-98cd-cacd167910e0
+[22:44:31] [Server thread/INFO]: Jenny lost connection: Disconnected
+[22:44:31] [Server thread/INFO]: Jenny left the game
+[22:46:57] [Server thread/INFO]: lionel133 issued server command: /deop lionel133
+[22:46:57] [Server thread/INFO]: [ohpaulo lionel133: Made lionel133 no longer a server operator]
+[22:47:08] [User Authenticator #3/INFO]: UUID of player Jenny is 5a08205c-887c-3350-a1cf-118897542c48
+[22:47:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@3198cb6d[id=5a08205c-887c-3350-a1cf-118897542c48,name=Jenny,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTc1MDYzMjA0MzE3OCwKICAicHJvZmlsZUlkIiA6ICI1MzJjNWE1NGRiNWI0MzdiOTA1NWU3NGU1MTM2OWNhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZW5ueSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZjY3MTY3MjRlY2IzZjkzYWY2NTk1MzljNTA3ODQyYzM0YWQ4Y2E2NzM1YzRjMWUyNjBmMWI4MDk2NWEzMGNmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=, signature=Z/QasEfcwe0oBQrilzdr3/8cvm6bEWRTeXS9yGwgaGofOeeYDG8DWfdaeqDHHI6vOAndZQJK02xU2MhkKNaZ8wgOtCMcVxK7Q/qbSpaKiznKElQPxBdMgJJfhC/Er6b4GC2TSddFZBjiJI13AiW15li6qjxiFnOPhOn5HEKSDzApX8wJ44WrXfFdpIdWU1SbPIXs0fbZmclp2BlfDqol0fdpbK6av9WgcnucGL9S1jWBEqchRWM0M3L6LhfErfODHDBr9VO/CSOVhKNbsi/sNLJoVOKW+CFuO3imhQ0NusLi1AiUfRUVNJlq8N9zXzM6I8ObQJ7U2DrpY6lrUAsBHTnQIRiF0fBC63xU/y3f7hARFjM7eilr7xfP5Cy42t9AkGWL8m7wvlQV1pR4DBlZZIZe4kdSWqPcr6028Tp4BfdEkARxx2W/mpK8gWqmBvrcB/cX44gUNeV663zQgGnA4Csh+elgJxFWHkH+Bg+wuPHul26viL772oiMLPkxbKa4GLyxfK+t0k6BOvhLjsghtrdo6dpuC1nFPeUjbxROb3C7PVBn31KFWt52pRMh2rz6/Xn6g2NNVvdxmb/wyHq8Td/2E13jVHkEWcrQXEZMVtPy6pLi1VB7DMlAn9o4KJCX/xkIidJ8yGLfwXdBmgCdRkK1CcX7ttGx1HsOC1aLuL4=]]}] lost connection: Disconnected
