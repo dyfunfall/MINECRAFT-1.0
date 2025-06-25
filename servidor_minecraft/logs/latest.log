@@ -299,3 +299,25 @@
 [22:02:54] [Server thread/INFO]: lionel133 left the game
 [22:03:22] [Server thread/INFO]: Builder was shot by Skeleton
 [22:03:24] [Server thread/INFO]: Builder issued server command: /tell . Oh dear, not again! I'll head back to where I bit the dust and grab my belongings.
+[22:05:45] [User Authenticator #2/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:05:46] [Server thread/INFO]: lionel133 joined the game
+[22:05:46] [Server thread/INFO]: lionel133[/127.7.242.196:43415] logged in with entity id 4551 at ([world]-57.07580015468265, 142.5625, 42.950038645291144)
+[22:05:54] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> donde estas
+[22:05:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Builder> I'm currently at x=-46, y=97, z=41, lionel133.
+[22:06:00] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> tpeate
+[22:06:17] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> teletransportate
+[22:06:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Builder> You got it, lionel133! Teleporting to you now!
+[22:06:20] [Server thread/INFO]: Builder issued server command: /tp .
+[22:06:23] [Server thread/INFO]: Builder was shot by Skeleton
+[22:06:31] [Server thread/INFO]: Builder issued server command: /tell . Yikes, I've kicked the bucket again! I'm heading back to grab my stuff. Also, watch out, lionel133, there are zombies and a skeleton nearby!
+[22:06:53] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> tepeate
+[22:07:09] [Server thread/INFO]: Builder issued server command: /tell . Just a reminder, lionel133, there are zombies and a skeleton nearby! Stay safe!
+[22:07:27] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> tepeate no me hables por /tell
+[22:07:48] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> teletrasportate a mi nombre
+[22:08:21] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> ya?
+[22:08:34] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> veb
+[22:08:44] [Async Chat Thread - #0/INFO]: [Not Secure] <lionel133> hi?
+[22:10:27] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:10:27] [Server thread/INFO]: lionel133 left the game
+[22:10:36] [Server thread/INFO]: lionel133 (/127.7.242.196:56979) lost connection: Disconnected
+[22:10:36] [User Authenticator #3/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
