@@ -290,3 +290,12 @@
 [21:53:19] [Server thread/INFO]: Builder issued server command: /tell . Welcome back, lionel133! Glad to see you again.
 [21:53:19] [Server thread/INFO]: Builder issued server command: /skin set web classic "http://textures.minecraft.net/texture/bfb464372dcaabe5df41340e9be3bd448432108bec033df2aa11e5c5e4f380ea"
 [21:53:24] [Server thread/INFO]: Builder issued server command: /skin set web classic "http://textures.minecraft.net/texture/bfb464372dcaabe5df41340e9be3bd448432108bec033df2aa11e5c5e4f380ea"
+[21:58:27] [Server thread/INFO]: Builder issued server command: /tell . I'm a bit peckish, but my inventory is empty. Should I collect some food, lionel133, or do you have something for me?
+[22:01:50] [Server thread/INFO]: Builder issued server command: /tell . Heads up, lionel133! I've spotted some skeletons nearby to the east and north.
+[22:02:49] [User Authenticator #1/INFO]: UUID of player lionel133 is 724ece1a-60d0-3ccd-a989-eb714bd0254c
+[22:02:51] [Server thread/INFO]: lionel133 joined the game
+[22:02:51] [Server thread/INFO]: lionel133[/127.7.242.196:55927] logged in with entity id 2040 at ([world]-57.07580015468265, 142.5625, 42.950038645291144)
+[22:02:54] [Server thread/INFO]: lionel133 lost connection: Disconnected
+[22:02:54] [Server thread/INFO]: lionel133 left the game
+[22:03:22] [Server thread/INFO]: Builder was shot by Skeleton
+[22:03:24] [Server thread/INFO]: Builder issued server command: /tell . Oh dear, not again! I'll head back to where I bit the dust and grab my belongings.
