@@ -286,3 +286,64 @@
 [21:40:38] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
 [21:47:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
 bn ,j,ghbkoiy46yhtjhu64te4y´54pytul54oiugtoiñ5u88s0975i9swju59uy79857lpfgoweriq9tur´+yu}09wj79u6j978iw5´68u09ew´jy6tuiy{wt90gyu057´5860'+9+¿2'493480'p79640nvqjvn{vV VN V9'T08{NV98JUGNUOIYTJEBG9PTJTYJFG{OÑLER4SFZ<--[HERE]
+[22:01:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+wa<--[HERE]
+[22:01:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+waa<--[HERE]
+[22:04:26] [Server thread/INFO]: Stopping server
+[22:04:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.1
+[22:04:26] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.2-SNAPSHOT
+[22:04:26] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:04:26] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:04:26] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.8
+[22:04:26] [Server thread/INFO]: [CSL] Disabling ChunkSpawnerLimiter v4.4.2
+[22:04:26] [Server thread/INFO]: [PlayerAuctions] Disabling PlayerAuctions v1.31.1
+[22:04:26] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
+[22:04:26] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[22:04:26] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[22:04:26] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
+[22:04:26] [Server thread/INFO]: ------------- Jobs -------------
+[22:04:26] [Server thread/INFO]: Cleared boss bar cache
+[22:04:26] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[22:04:26] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[22:04:26] [Server thread/INFO]: Saved player data
+[22:04:26] [Server thread/INFO]: Closed database connection
+[22:04:26] [Server thread/INFO]: ------------------------------------
+[22:04:26] [Server thread/INFO]: [UltimateShop] Disabling UltimateShop v3.8.2
+[22:04:26] [Server thread/INFO]: [UltimateShop] Plugin is disabled. Author: PQguanfang.
+[22:04:26] [Server thread/INFO]: [NexusAuctionHouse] Disabling NexusAuctionHouse v2.1
+[22:04:26] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.13.2
+[22:04:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.0
+[22:04:26] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.4
+[22:04:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
+[22:04:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:04:26] [Server thread/INFO]: [SynkLibs] Disabling SynkLibs v1.8.2
+[22:04:27] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[22:04:27] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:04:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[22:04:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:04:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:04:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:04:27] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.0
+[22:04:27] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:04:27] [Server thread/INFO]: Saving players
+[22:04:27] [Server thread/INFO]: Saving worlds
+[22:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 36 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[22:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
